@@ -1,0 +1,18 @@
+# KiCad backups and cache
+*.bak
+*-backups/
+_autosave-*
+fp-info-cache
+*.kicad_prl
+*-cache.lib
+*.tmp
+
+# Plot/fabrication outputs (regenerate these, don't track them)
+/gerbers/
+/plot/
+*.pos
+*.drl
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
