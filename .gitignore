@@ -16,3 +16,4 @@ fp-info-cache
 # OS/editor junk
 .DS_Store
 Thumbs.db.history/
+.history/
