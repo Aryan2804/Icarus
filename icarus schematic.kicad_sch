@@ -4880,6 +4880,12 @@
 		(uuid "3194536b-9b2a-4f4b-83f3-1cc548a96995")
 	)
 	(junction
+		(at 162.56 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "365484e2-fdae-4749-9428-d76844e935b9")
+	)
+	(junction
 		(at 27.94 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4926,6 +4932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5956e2b5-9e24-4333-8ab7-6b793f74c990")
+	)
+	(junction
+		(at 162.56 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "623934a4-0356-4f09-a09f-97cb742fb34d")
 	)
 	(junction
 		(at 49.53 24.13)
@@ -5024,10 +5036,22 @@
 		(uuid "ca38b2d9-5013-4362-8d7c-c5bf4dc72484")
 	)
 	(junction
+		(at 119.38 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce97b5e1-8d51-4d43-9dcc-2101b11542f2")
+	)
+	(junction
 		(at 254 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf22b016-2d66-45d2-ad07-e38724eab028")
+	)
+	(junction
+		(at 119.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da365be5-bde2-48b2-9903-957464a293ae")
 	)
 	(junction
 		(at 39.37 36.83)
@@ -7025,7 +7049,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 111.76 86.36 0)
+		(at 119.38 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7035,7 +7059,7 @@
 		(dnp no)
 		(uuid "09004dc9-e521-4688-a9fa-4eb2b49c6ce5")
 		(property "Reference" "TP2"
-			(at 110.744 79.248 0)
+			(at 118.364 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7046,7 +7070,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 108.458 81.28 0)
+			(at 116.078 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7057,7 +7081,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 116.84 86.36 0)
+			(at 124.46 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7068,7 +7092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 86.36 0)
+			(at 124.46 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7079,7 +7103,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 111.76 86.36 0)
+			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7132,7 +7156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 36.83 106.172 90)
 			(hide yes)
 			(show_name no)
@@ -7212,7 +7236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 177.8 111.125 0)
 			(hide yes)
 			(show_name no)
@@ -7643,7 +7667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 36.83 103.632 90)
 			(hide yes)
 			(show_name no)
@@ -7725,7 +7749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 117.602 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -8166,7 +8190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 160.782 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -8325,7 +8349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 179.07 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -8828,7 +8852,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 154.94 120.65 0)
+		(at 162.56 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8838,7 +8862,7 @@
 		(dnp no)
 		(uuid "5cd94083-11a4-40bb-a851-db0316617057")
 		(property "Reference" "TP4"
-			(at 153.924 113.538 0)
+			(at 161.544 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8849,7 +8873,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 151.638 115.57 0)
+			(at 159.258 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8860,7 +8884,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 160.02 120.65 0)
+			(at 167.64 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8871,7 +8895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 120.65 0)
+			(at 167.64 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8882,7 +8906,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 154.94 120.65 0)
+			(at 162.56 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9573,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 154.94 85.09 0)
+		(at 162.56 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9559,7 +9583,7 @@
 		(dnp no)
 		(uuid "947dc95e-6856-4b8d-8b15-bb063ff99543")
 		(property "Reference" "TP3"
-			(at 153.924 77.978 0)
+			(at 161.544 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9570,7 +9594,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 151.638 80.01 0)
+			(at 159.258 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9581,7 +9605,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 160.02 85.09 0)
+			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9592,7 +9616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 85.09 0)
+			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,7 +9627,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 154.94 85.09 0)
+			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9749,7 +9773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 36.83 98.552 90)
 			(hide yes)
 			(show_name no)
@@ -10514,7 +10538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 160.782 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -11101,7 +11125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -11151,7 +11175,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 111.76 120.65 0)
+		(at 119.38 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11161,7 +11185,7 @@
 		(dnp no)
 		(uuid "daf207c1-f7a0-4469-bf7d-5f0f7b98a3fd")
 		(property "Reference" "TP1"
-			(at 110.744 113.538 0)
+			(at 118.364 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11172,7 +11196,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 108.458 115.57 0)
+			(at 116.078 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11183,7 +11207,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 116.84 120.65 0)
+			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11194,7 +11218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 120.65 0)
+			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11205,7 +11229,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 111.76 120.65 0)
+			(at 119.38 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,7 +11773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 117.602 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -11908,7 +11932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 36.83 101.092 90)
 			(hide yes)
 			(show_name no)
@@ -11987,7 +12011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 134.62 57.785 0)
 			(hide yes)
 			(show_name no)
