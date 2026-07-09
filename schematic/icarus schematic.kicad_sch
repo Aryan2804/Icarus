@@ -5259,6 +5259,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 81.28) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104108c7-9bae-4c44-aba3-2bdfb842f1a1")
+	)
+	(wire
+		(pts
 			(xy 49.53 33.02) (xy 49.53 36.83)
 		)
 		(stroke
@@ -5296,6 +5306,16 @@
 			(type default)
 		)
 		(uuid "152e2372-5391-435b-a0cd-d42bbecadd02")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159acb3d-c737-4c06-972a-12cdaa49a230")
 	)
 	(wire
 		(pts
@@ -5439,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 81.28) (xy 186.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3063a00b-2bb3-4708-9b10-33ac6fb08543")
+	)
+	(wire
+		(pts
 			(xy 74.93 27.94) (xy 74.93 26.67)
 		)
 		(stroke
@@ -5486,6 +5516,16 @@
 			(type default)
 		)
 		(uuid "340371be-2ddf-4a8a-afef-86496d92fc20")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a13fc1-13ed-4487-a93c-901d17e53afc")
 	)
 	(wire
 		(pts
@@ -5829,13 +5869,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 81.28) (xy 186.69 71.12)
+			(xy 186.69 64.77) (xy 186.69 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69469b17-45cd-42f4-9f5c-20875229c857")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1cdd85-f9b4-40c6-a1f8-bf9674fd4caa")
 	)
 	(wire
 		(pts
@@ -5869,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 186.69 81.28)
+			(xy 182.88 64.77) (xy 186.69 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5939,6 +5989,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 81.28) (xy 170.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfdf8dc-d242-4843-9456-7acea3e2746a")
+	)
+	(wire
+		(pts
 			(xy 176.53 17.78) (xy 176.53 30.48)
 		)
 		(stroke
@@ -5999,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 175.26 81.28)
+			(xy 170.18 64.77) (xy 175.26 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6009,7 +6069,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 170.18 81.28)
+			(xy 170.18 64.77) (xy 170.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6099,6 +6159,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 95.25) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971f4bdb-f5e5-417c-acf5-0d2bc5be0e97")
+	)
+	(wire
+		(pts
 			(xy 74.93 38.1) (xy 74.93 36.83)
 		)
 		(stroke
@@ -6106,6 +6176,16 @@
 			(type default)
 		)
 		(uuid "98d0cf18-09b2-49d9-a2d0-6723674b8104")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995d6738-0e9c-45bb-b490-c3c5318b6ba9")
 	)
 	(wire
 		(pts
@@ -6199,6 +6279,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81aa563-adc5-407c-9d0d-d2bfcfd54861")
+	)
+	(wire
+		(pts
 			(xy 156.21 17.78) (xy 156.21 20.32)
 		)
 		(stroke
@@ -6216,6 +6306,16 @@
 			(type default)
 		)
 		(uuid "ae30fb36-9961-4802-92bc-77f1f6fd98d3")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af854857-7931-44fb-ac69-83257032a06c")
 	)
 	(wire
 		(pts
@@ -6419,6 +6519,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d958c030-3a5a-4a45-b4d5-02ef6d327a34")
+	)
+	(wire
+		(pts
 			(xy 181.61 115.57) (xy 187.96 115.57)
 		)
 		(stroke
@@ -6426,6 +6536,16 @@
 			(type default)
 		)
 		(uuid "df5eddae-f587-4f1a-a0ea-3bd791169078")
+	)
+	(wire
+		(pts
+			(xy 186.69 81.28) (xy 186.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df79481e-19a8-4eac-8ebd-628350f53b98")
 	)
 	(wire
 		(pts
@@ -6456,6 +6576,16 @@
 			(type default)
 		)
 		(uuid "e2c9240e-598b-4ea9-81aa-9227d80d13f4")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3605d7b-fa23-4bb3-8b30-9c2c9b1683de")
 	)
 	(wire
 		(pts
@@ -6519,13 +6649,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 115.57) (xy 187.96 106.68)
+			(xy 187.96 93.98) (xy 187.96 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2efd4de-393c-496b-84aa-e3a4ae6d307e")
+	)
+	(wire
+		(pts
+			(xy 173.99 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48271a2-8360-410a-84f9-0b3f5c18385e")
 	)
 	(wire
 		(pts
@@ -6599,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 127 116.84)
+			(xy 127 95.25) (xy 127 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8319,7 +8459,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 179.07 81.28 180)
+		(at 179.07 64.77 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8330,7 +8470,7 @@
 		(fields_autoplaced yes)
 		(uuid "41085e76-66fb-4b32-b03e-d4e45655ff5e")
 		(property "Reference" "D4"
-			(at 179.3875 74.93 0)
+			(at 179.3875 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8340,7 +8480,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 179.3875 77.47 0)
+			(at 179.3875 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8350,7 +8490,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 179.07 76.835 0)
+			(at 179.07 60.325 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8361,7 +8501,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 179.07 81.28 0)
+			(at 179.07 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8372,7 +8512,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 179.07 81.28 0)
+			(at 179.07 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9169,6 +9309,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 137.16 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71efc5c9-0b8d-4ebd-a215-50be680d4401")
+		(property "Reference" "C13"
+			(at 137.16 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 137.16 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 133.35 96.2152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "991eedb6-893d-4e80-b476-35f243e386fe")
+		)
+		(pin "2"
+			(uuid "1ad1a146-0b00-47d2-ad16-764d293c0d24")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 29.21 90)
 		(unit 1)
@@ -9410,6 +9630,86 @@
 			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86339f73-d69f-4769-869f-7bd1406feeed")
+		(property "Reference" "C12"
+			(at 177.8 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 177.8 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 173.99 82.2452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96f0a3f3-9f08-43a7-ba67-709848d26dde")
+		)
+		(pin "2"
+			(uuid "f2202336-8e10-4c0e-9249-77af3ae0cbb0")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10424,6 +10724,86 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 133.35 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc36c20-3ecc-40d3-b59e-841214158293")
+		(property "Reference" "C10"
+			(at 133.35 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 133.35 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 129.54 82.2452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2144d24c-f8fc-4fe0-a33d-1be104eee2c0")
+		)
+		(pin "2"
+			(uuid "d73f5903-aab4-44bd-8414-cc51233dcd85")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 176.53 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -10830,6 +11210,86 @@
 			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee3b2da-5260-41fb-90b1-a7bb9323791a")
+		(property "Reference" "C11"
+			(at 177.8 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 177.8 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 173.99 94.9452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afec268d-39d5-429d-b8db-bdfec4bbbaa2")
+		)
+		(pin "2"
+			(uuid "06f50a39-215a-42c7-ae26-8b3455f5e8d8")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "C11")
 					(unit 1)
 				)
 			)
