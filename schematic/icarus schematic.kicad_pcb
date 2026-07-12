@@ -7177,14 +7177,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "902d85dd-6bb0-4387-8049-68c976b03a38")
 		(at 215.5 104.1375 -90)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
-		(tags "capacitor handsolder")
+		(descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=5mm, Non-Polar Electrolytic Capacitor")
+		(tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 5mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C8"
-			(at 1.75 -1.6125 90)
+			(at 1.25 -4.4 270)
 			(layer "F.SilkS")
 			(uuid "0b5f837b-22f3-468e-bcd8-3339a0bfa98d")
 			(effects
@@ -7195,7 +7195,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 0 1.43 90)
+			(at 1.25 4.4 270)
 			(layer "F.Fab")
 			(uuid "90707561-0ad0-4cb5-a6e1-7b2db29574ec")
 			(effects
@@ -7206,7 +7206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17ebe8d3-088a-4eb8-80c9-f5a8e8bdf4b2")
@@ -7217,7 +7217,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eadb845c-91d7-4776-84d5-c281313443b3")
@@ -7227,8 +7227,8 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a0cb6da2-caf9-4b48-8fee-b95d1937b877")
@@ -7249,81 +7249,74 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.146267 0.51)
-			(end 0.146267 0.51)
+		(fp_circle
+			(center 1.25 0)
+			(end 4.52 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "080335a2-c4b5-40ba-9f1d-bdb8714dd455")
+			(uuid "c2108241-6a72-43f8-87ee-387cecad32b9")
 		)
-		(fp_line
-			(start -0.146267 -0.51)
-			(end 0.146267 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fcbf551d-4771-4088-b177-ab366a986e87")
-		)
-		(fp_rect
-			(start -1.65 -0.73)
-			(end 1.65 0.73)
+		(fp_circle
+			(center 1.25 0)
+			(end 4.65 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "095ce114-b368-404d-8718-b077d44c904c")
+			(uuid "e73f4718-9218-4785-97a2-b683dc219429")
 		)
-		(fp_rect
-			(start -0.8 -0.4)
-			(end 0.8 0.4)
+		(fp_circle
+			(center 1.25 0)
+			(end 4.4 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "abd465af-ae13-4114-bf45-9d0be199e601")
+			(uuid "b1d967ce-0a1c-4df3-b614-99eb5c00f2d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 1.25 0 270)
 			(layer "F.Fab")
 			(uuid "5dae6cc6-b3b5-4f33-8f44-bf16ed0314cc")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "1" smd roundrect
-			(at -0.8625 0 270)
-			(size 1.075 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+		(pad "1" thru_hole circle
+			(at 0 0 270)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D2-K)")
 			(pintype "passive")
 			(uuid "608c1c40-f31d-4fdf-86fd-867b73a07dae")
 		)
-		(pad "2" smd roundrect
-			(at 0.8625 0 270)
-			(size 1.075 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+		(pad "2" thru_hole circle
+			(at 2.5 0 270)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "GND")
 			(pintype "passive")
 			(uuid "6533b8d7-9ec9-4a03-af5c-2af7cd219762")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D6.3mm_H5.0mm_P2.50mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
