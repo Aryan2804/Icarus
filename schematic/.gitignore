@@ -17,3 +17,5 @@ fp-info-cache
 .DS_Store
 Thumbs.db.history/
 .history/
+.history/
+*.lck
