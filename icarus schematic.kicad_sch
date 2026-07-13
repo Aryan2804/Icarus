@@ -4644,6 +4644,12 @@
 		(uuid "406f9d42-4023-4423-882f-bc009d121671")
 	)
 	(junction
+		(at 154.94 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4096624c-c5f4-47da-a2bc-7b1ebdb218d0")
+	)
+	(junction
 		(at 170.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4734,6 +4740,12 @@
 		(uuid "89d73eaa-fcfe-4511-b18a-880cff3fb8a5")
 	)
 	(junction
+		(at 119.38 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7e6f76-64b4-4770-a24c-8d92bcf0411b")
+	)
+	(junction
 		(at 279.4 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4744,6 +4756,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a57c9ea4-a2b9-4a39-a980-ab38fdd79b17")
+	)
+	(junction
+		(at 111.76 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a95aad91-2790-476b-9610-ac2d9d8b8b2f")
 	)
 	(junction
 		(at 156.21 50.8)
@@ -4798,6 +4816,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf22b016-2d66-45d2-ad07-e38724eab028")
+	)
+	(junction
+		(at 154.94 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d48674bf-4d9f-4b51-abed-61525bfdb25a")
 	)
 	(junction
 		(at 119.38 106.68)
@@ -5047,6 +5071,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 125.73) (xy 119.38 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143183b8-bf8d-4633-ae27-db9bb59733b8")
+	)
+	(wire
+		(pts
 			(xy 119.38 106.68) (xy 119.38 115.57)
 		)
 		(stroke
@@ -5054,6 +5088,16 @@
 			(type default)
 		)
 		(uuid "152e2372-5391-435b-a0cd-d42bbecadd02")
+	)
+	(wire
+		(pts
+			(xy 154.94 135.89) (xy 162.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1531cfcf-efc4-4580-83ba-b34d643b61e9")
 	)
 	(wire
 		(pts
@@ -5147,6 +5191,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 135.89) (xy 119.38 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230ebbc4-a6bd-4c2d-b5ea-529fec161b88")
+	)
+	(wire
+		(pts
 			(xy 77.47 67.31) (xy 77.47 74.93)
 		)
 		(stroke
@@ -5207,7 +5261,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 162.56 92.71)
+			(xy 162.56 90.17) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5244,16 +5298,6 @@
 			(type default)
 		)
 		(uuid "31f073e8-e913-4cfc-a5bc-65ca64e2c027")
-	)
-	(wire
-		(pts
-			(xy 119.38 125.73) (xy 119.38 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32160355-6b83-4440-9802-da1c154d7a4d")
 	)
 	(wire
 		(pts
@@ -5347,7 +5391,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 125.73) (xy 162.56 128.27)
+			(xy 162.56 125.73) (xy 162.56 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5427,6 +5471,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 128.27) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5496bacb-dbfa-4b8c-b178-f828638bc497")
+	)
+	(wire
+		(pts
 			(xy 49.53 24.13) (xy 49.53 25.4)
 		)
 		(stroke
@@ -5474,6 +5528,16 @@
 			(type default)
 		)
 		(uuid "59b9cf3f-da0d-4518-a952-7e7c67c29e1e")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0fce15-691e-4670-9f9b-8016d0562695")
 	)
 	(wire
 		(pts
@@ -5847,7 +5911,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 101.6) (xy 106.68 101.6)
+			(xy 119.38 101.6) (xy 111.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5947,7 +6011,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 151.13 100.33)
+			(xy 162.56 100.33) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6064,6 +6128,16 @@
 			(type default)
 		)
 		(uuid "af854857-7931-44fb-ac69-83257032a06c")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ad8781-5139-48bc-b704-46be60d7dc9c")
 	)
 	(wire
 		(pts
@@ -6187,6 +6261,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 93.98) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c225358b-e0bf-4507-a2bd-421ce85f7f3e")
+	)
+	(wire
+		(pts
 			(xy 130.81 50.8) (xy 151.13 50.8)
 		)
 		(stroke
@@ -6214,16 +6298,6 @@
 			(type default)
 		)
 		(uuid "c70c5c95-1b2e-400f-937d-b62da4093d70")
-	)
-	(wire
-		(pts
-			(xy 119.38 91.44) (xy 119.38 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c94f4907-85c4-4a44-bc45-97ca264a67da")
 	)
 	(wire
 		(pts
@@ -6377,6 +6451,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 92.71) (xy 154.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d64fe9-b7fa-4214-aeed-dac89352a927")
+	)
+	(wire
+		(pts
 			(xy 106.68 38.1) (xy 106.68 39.37)
 		)
 		(stroke
@@ -6394,6 +6478,16 @@
 			(type default)
 		)
 		(uuid "e796f42c-cb17-4b6c-af6e-e50a7ccabfbe")
+	)
+	(wire
+		(pts
+			(xy 154.94 128.27) (xy 154.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5b8b7c-5fc8-4e73-9900-8eeb04add193")
 	)
 	(wire
 		(pts
@@ -6447,6 +6541,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 91.44) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d5d85c-d56d-43f3-8c27-ced5074b7639")
+	)
+	(wire
+		(pts
 			(xy 173.99 93.98) (xy 170.18 93.98)
 		)
 		(stroke
@@ -6477,7 +6581,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 135.89) (xy 162.56 135.89)
+			(xy 151.13 135.89) (xy 154.94 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7450,6 +7554,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 111.76 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a67c47f-f233-43b5-b1c1-ab6ce0ac00b0")
+		(property "Reference" "R8"
+			(at 114.3 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 114.3 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 109.982 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7627dbe8-089c-4e8a-9622-03610691fd54")
+		)
+		(pin "1"
+			(uuid "3e72d358-93e2-4e88-8189-87afffe83de3")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20ba898e-cf43-4529-b5f3-5d788d06e310")
+		(property "Reference" "R11"
+			(at 157.48 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.48 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 153.162 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0a404443-d830-4795-b07b-e909db0315e5")
+		)
+		(pin "1"
+			(uuid "6a677831-a72f-4077-b48f-da0ee60b0de1")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 134.62 67.31 90)
 		(unit 1)
@@ -7525,88 +7793,6 @@
 			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28f969d5-3f6c-4a6b-a52d-4b110652bdbb")
-		(property "Reference" "R8"
-			(at 121.92 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 121.92 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 117.602 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15abcd2d-4ae6-463b-ab78-18e224323948")
-		)
-		(pin "1"
-			(uuid "02a6a3f9-4748-4e92-abdd-e57230f3c675")
-		)
-		(instances
-			(project "icarus schematic"
-				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8127,88 +8313,6 @@
 			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b27a984-a5cc-49ad-92f7-08ae62142057")
-		(property "Reference" "R10"
-			(at 165.1 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 165.1 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 160.782 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "48e356ea-2620-464c-9785-62640d56a6d6")
-		)
-		(pin "1"
-			(uuid "ac72b2d2-0cf6-4e42-8d83-eac806e18c01")
-		)
-		(instances
-			(project "icarus schematic"
-				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9787,6 +9891,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 154.94 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978d1dc7-45a6-4b0d-a510-5b8f702d75b6")
+		(property "Reference" "R10"
+			(at 157.48 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.48 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 153.162 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa52c50d-38e7-4920-8b81-12a93a0c4f16")
+		)
+		(pin "1"
+			(uuid "af956a49-15ab-4309-810a-7a350f270326")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 194.31 116.84 270)
 		(unit 1)
@@ -10882,87 +11068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 162.56 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c4b07e4c-5409-422c-a281-db0191314488")
-		(property "Reference" "R11"
-			(at 165.1 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 163.83 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 160.782 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 162.56 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d540b499-fc9f-4c95-862a-59ccc2e1a7bf")
-		)
-		(pin "1"
-			(uuid "8744b445-8ab0-4a79-bbc7-784c35590b89")
-		)
-		(instances
-			(project "icarus schematic"
-				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 74.93 90)
 		(unit 1)
@@ -11412,7 +11517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
 			(at 206.7052 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11872,6 +11977,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 111.76 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df8471d7-33ca-404e-b197-24f77409d3ed")
+		(property "Reference" "R9"
+			(at 114.3 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 114.3 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 109.982 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "891eb52c-de8e-498b-968f-5d07f1a6d49c")
+		)
+		(pin "1"
+			(uuid "d0938c9a-bec2-4b1c-8e4b-0b85808aa7f9")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS14")
 		(at 271.78 21.59 0)
 		(mirror y)
@@ -12109,88 +12296,6 @@
 			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 119.38 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb1f0b99-e2af-4632-85df-852deb16a91b")
-		(property "Reference" "R9"
-			(at 121.92 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 121.92 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 117.602 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 119.38 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7c31188c-ea9e-4d86-bdaa-ad3faab52b0f")
-		)
-		(pin "1"
-			(uuid "ab8c4407-9f37-44c6-b044-71011abc7685")
-		)
-		(instances
-			(project "icarus schematic"
-				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
-					(reference "R9")
 					(unit 1)
 				)
 			)
