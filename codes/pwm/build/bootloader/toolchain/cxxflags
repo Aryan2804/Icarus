@@ -1,0 +1,7 @@
+@"C:/Users/aryan/.vscode/Icarus/build/bootloader/toolchain/cxxflags"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+-fno-rtti

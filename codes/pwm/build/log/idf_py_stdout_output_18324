@@ -1,0 +1,148 @@
+Command: ninja all
+[1/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/Icarus.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/Icarus.c.obj 
+ccache C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20260121\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.5.4\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -DUNITY_INCLUDE_CONFIG_H -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/config -IC:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/config/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/include/soc/esp32 -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/dma/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/ldo/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/debug_probe/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/mspi_timing_tuning/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/power_supply/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/port/esp32/. -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/port/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/heap/tlsf -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/soc/esp32 -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/soc/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/soc/esp32/register -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/hal/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_rom/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_rom/esp32/include/esp32 -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_rom/esp32 -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/xtensa/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/xtensa/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/xtensa/deprecated_include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_gpio/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_pm/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mbedtls/port/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mbedtls/mbedtls/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mbedtls/mbedtls/library -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mbedtls/esp_crt_bundle/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mbedtls/mbedtls/3rdparty/everest/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mbedtls/mbedtls/3rdparty/p256-m -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_app_format/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_bootloader_format/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/app_update/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/bootloader_support/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/bootloader_support/bootloader_flash/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_partition/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/efuse/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/efuse/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_mm/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/spi_flash/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_security/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/pthread/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_timer/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_gptimer/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_ringbuf/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_spi/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_psram/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_uart/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/vfs/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/app_trace/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_event/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/nvs_flash/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_phy/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_phy/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_usb_serial_jtag/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_vfs_console/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_netif/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/wpa_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/wpa_supplicant/port/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/wpa_supplicant/esp_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_coex/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_wifi/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_wifi/include/local -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_wifi/wifi_apps/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_wifi/wifi_apps/nan_app/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_gdbstub/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/unity/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/unity/unity/src -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/cmock/CMock/src -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/console -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_pcnt/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_mcpwm/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_ana_cmpr/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_i2s/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_sdspi/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_sdio/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_dac/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_bitscrambler/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_rmt/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_tsens/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_sdm/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_i2c/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_ledc/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_parlio/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_twai/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/driver/deprecated -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/driver/i2c/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/driver/touch_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/driver/twai/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/driver/touch_sensor/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/http_parser -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp-tls -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp-tls/esp-tls-crypto -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_adc/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_adc/interface -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_adc/esp32/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_adc/deprecated/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_isp/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_cam/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_cam/interface -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_jpeg/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_ppa/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_touch_sens/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_touch_sens/hw_ver1/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_eth/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hal_ieee802154/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hid/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/tcp_transport/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_http_client/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_http_server/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_https_ota/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_https_server/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_lcd/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_lcd/interface -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/protobuf-c/protobuf-c -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/protocomm/include/common -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/protocomm/include/security -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/protocomm/include/transports -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/protocomm/include/crypto/srp6a -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/protocomm/proto-c -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_local_ctrl/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/espcoredump/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/espcoredump/include/port/xtensa -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/wear_levelling/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/fatfs/diskio -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/fatfs/src -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/fatfs/vfs -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/idf_test/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/idf_test/include/esp32 -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/ieee802154/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/json/cJSON -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/mqtt/esp-mqtt/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/nvs_sec_provider/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/perfmon/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/rt/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/spiffs/include -IC:/Espressif/frameworks/esp-idf-v5.5.4/components/wifi_provisioning/include @"C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/toolchain/cflags" -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.5.4=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/Icarus.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\Icarus.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/Icarus.c.obj -c C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:18:18: error: unknown type name 'led_channel_t'; did you mean 'ledc_channel_t'?
+   18 |     static const led_channel_t LEDC_CHANNEL[MOTORS] = {LEDC_CHANNEL_0, LEDC_CHANNEL_1, LEDC_CHANNEL_2, LEDC_CHANNEL_3};
+      |                  ^~~~~~~~~~~~~
+      |                  ledc_channel_t
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c: In function 'pwm_config':
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:41:11: error: unknown type name 'uart_port_t'
+   41 |     const uart_port_t uart_num = UART_NUM_0;
+      |           ^~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:41:34: error: 'UART_NUM_0' undeclared (first use in this function)
+   41 |     const uart_port_t uart_num = UART_NUM_0;
+      |                                  ^~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:41:34: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:43:9: error: unknown type name 'uart_config_t'; did you mean 'gpio_config_t'?
+   43 |         uart_config_t uart_config = {
+      |         ^~~~~~~~~~~~~
+      |         gpio_config_t
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:44:9: error: field name not in record or union initializer
+   44 |         .baud_rate = 115200,
+      |         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:44:9: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:45:9: error: field name not in record or union initializer
+   45 |         .data_bits = UART_DATA_8_BITS,
+      |         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:45:9: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:45:22: error: 'UART_DATA_8_BITS' undeclared (first use in this function)
+   45 |         .data_bits = UART_DATA_8_BITS,
+      |                      ^~~~~~~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:45:22: warning: excess elements in scalar initializer
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:45:22: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:46:9: error: field name not in record or union initializer
+   46 |         .parity    = UART_PARITY_DISABLE,
+      |         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:46:9: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:46:22: error: 'UART_PARITY_DISABLE' undeclared (first use in this function)
+   46 |         .parity    = UART_PARITY_DISABLE,
+      |                      ^~~~~~~~~~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:46:22: warning: excess elements in scalar initializer
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:46:22: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:47:9: error: field name not in record or union initializer
+   47 |         .stop_bits = UART_STOP_BITS_1,
+      |         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:47:9: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:47:22: error: 'UART_STOP_BITS_1' undeclared (first use in this function)
+   47 |         .stop_bits = UART_STOP_BITS_1,
+      |                      ^~~~~~~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:47:22: warning: excess elements in scalar initializer
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:47:22: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:48:9: error: field name not in record or union initializer
+   48 |         .flow_ctrl = UART_HW_FLOWCTRL_DISABLE
+      |         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:48:9: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:48:22: error: 'UART_HW_FLOWCTRL_DISABLE' undeclared (first use in this function)
+   48 |         .flow_ctrl = UART_HW_FLOWCTRL_DISABLE
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:48:22: warning: excess elements in scalar initializer
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:48:22: note: (near initialization for 'uart_config')
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:50:5: error: implicit declaration of function 'uart_param_config' [-Wimplicit-function-declaration]
+   50 |     uart_param_config(uart_num, &uart_config);
+      |     ^~~~~~~~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:51:5: error: implicit declaration of function 'uart_driver_install' [-Wimplicit-function-declaration]
+   51 |     uart_driver_install(uart_num, 1024, 0, 0, NULL, 0);
+      |     ^~~~~~~~~~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c: In function 'uart_read_int':
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:68:19: error: implicit declaration of function 'uart_read_bytes'; did you mean 'uart_read_int'? [-Wimplicit-function-declaration]
+   68 |         int len = uart_read_bytes(UART_NUM_0, &ch, 1, pdMS_TO_TICKS(10000));
+      |                   ^~~~~~~~~~~~~~~
+      |                   uart_read_int
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:68:35: error: 'UART_NUM_0' undeclared (first use in this function)
+   68 |         int len = uart_read_bytes(UART_NUM_0, &ch, 1, pdMS_TO_TICKS(10000));
+      |                                   ^~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:74:13: error: implicit declaration of function 'uart_write_bytes' [-Wimplicit-function-declaration]
+   74 |             uart_write_bytes(UART_NUM_0, (const char *)&ch, 1);  // Echo back
+      |             ^~~~~~~~~~~~~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c: In function 'app_main':
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:93:35: error: 'speed' undeclared (first use in this function)
+   93 |         printf("\nReceived: %d ", speed);
+      |                                   ^~~~~
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:86:19: warning: variable 'w' set but not used [-Wunused-but-set-variable]
+   86 |         int x,y,z,w;
+      |                   ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:86:17: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+   86 |         int x,y,z,w;
+      |                 ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:86:15: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+   86 |         int x,y,z,w;
+      |               ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:86:13: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+   86 |         int x,y,z,w;
+      |             ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:97:25: error: 'x' undeclared (first use in this function)
+   97 |         pwm_set_speed(0,x);
+      |                         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:98:25: error: 'y' undeclared (first use in this function)
+   98 |         pwm_set_speed(1,y);
+      |                         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:99:25: error: 'z' undeclared (first use in this function)
+   99 |         pwm_set_speed(2,z);
+      |                         ^
+C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main/Icarus.c:100:25: error: 'w' undeclared (first use in this function)
+  100 |         pwm_set_speed(3,w);
+      |                         ^
+[2/11] Performing configure step for 'bootloader'
+FAILED: bootloader-prefix/src/bootloader-stamp/bootloader-configure C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure 
+C:\Windows\system32\cmd.exe /C "cd /D C:\Users\aryan\OneDrive\Desktop\KiCAD\ICARUS\icarus_schematic\codes\pwm\build\bootloader && C:\Espressif\tools\cmake\3.30.2\bin\cmake.exe -DSDKCONFIG=C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/sdkconfig -DIDF_PATH=C:/Espressif/frameworks/esp-idf-v5.5.4 -DIDF_TARGET=esp32 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe -DEXTRA_COMPONENT_DIRS=C:/Espressif/frameworks/esp-idf-v5.5.4/components/bootloader -DPROJECT_SOURCE_DIR=C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm -DIGNORE_EXTRA_COMPONENT= -GNinja -S C:/Espressif/frameworks/esp-idf-v5.5.4/components/bootloader/subproject -B C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader && C:\Espressif\tools\cmake\3.30.2\bin\cmake.exe -E touch C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure"
+-- Minimal build - OFF
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe - broken
+CMake Error at C:/Espressif/tools/cmake/3.30.2/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-4q1ztw'
+    
+    Run Build Command(s): C:/Espressif/tools/ninja/1.12.1/ninja.exe -v cmTC_c1756
+    [1/2] C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20260121\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe   @"C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/toolchain/cflags" -o CMakeFiles/cmTC_c1756.dir/testCCompiler.c.obj -c C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-4q1ztw/testCCompiler.c
+    FAILED: CMakeFiles/cmTC_c1756.dir/testCCompiler.c.obj 
+    C:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20260121\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe   @"C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/toolchain/cflags" -o CMakeFiles/cmTC_c1756.dir/testCCompiler.c.obj -c C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/CMakeFiles/CMakeScratch/TryCompile-4q1ztw/testCCompiler.c
+    xtensa-esp-elf-gcc.exe: warning: @C:/Users/aryan/.vscode/Icarus/build/bootloader/toolchain/cflags: linker input file unused because linking not done
+    xtensa-esp-elf-gcc.exe: error: @C:/Users/aryan/.vscode/Icarus/build/bootloader/toolchain/cflags: linker input file not found: Invalid argument
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.5.4/tools/cmake/project.cmake:601 (__project)
+  CMakeLists.txt:71 (project)
+
+
+-- Configuring incomplete, errors occurred!
+ninja: build stopped: subcommand failed.
