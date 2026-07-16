@@ -4596,12 +4596,6 @@
 		(uuid "dbba0c52-1b70-4422-8687-bfecdc5713b0")
 	)
 	(junction
-		(at 106.68 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "064b9406-1e62-41dc-af26-37d98826718e")
-	)
-	(junction
 		(at 243.84 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4612,12 +4606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1207c225-5c6e-4d50-ba05-26aa4d58dd6a")
-	)
-	(junction
-		(at 86.36 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e35ec14-1100-4620-895b-b0ff3d307ce3")
 	)
 	(junction
 		(at 143.51 135.89)
@@ -4686,10 +4674,22 @@
 		(uuid "5956e2b5-9e24-4333-8ab7-6b793f74c990")
 	)
 	(junction
+		(at 86.36 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ef831a4-3064-4d6f-9261-0b7f6e3e5b3d")
+	)
+	(junction
 		(at 162.56 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "623934a4-0356-4f09-a09f-97cb742fb34d")
+	)
+	(junction
+		(at 86.36 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6555e087-e6d2-4f8c-a4e0-e2a91df3848a")
 	)
 	(junction
 		(at 49.53 24.13)
@@ -4788,6 +4788,12 @@
 		(uuid "bcb2b73d-ef73-472f-b098-c7b58c33cf81")
 	)
 	(junction
+		(at 106.68 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c035c5a5-1e1d-4f21-9ba1-728e192cfaf1")
+	)
+	(junction
 		(at 151.13 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4846,12 +4852,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5fc928d-4857-401e-9407-3423898e9b7b")
-	)
-	(junction
-		(at 86.36 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e863e841-730b-4900-913c-6c98ab5e80fa")
 	)
 	(junction
 		(at 162.56 72.39)
@@ -5041,6 +5041,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 43.18) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0cdf75-da20-4d0b-b956-bfca38fbf2d2")
+	)
+	(wire
+		(pts
+			(xy 86.36 26.67) (xy 86.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa67518-adee-49ba-8884-ad0584123f7b")
+	)
+	(wire
+		(pts
 			(xy 125.73 81.28) (xy 125.73 72.39)
 		)
 		(stroke
@@ -5171,16 +5191,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 38.1) (xy 106.68 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2269a724-68a2-44b3-8cf8-2d0e0eed6886")
-	)
-	(wire
-		(pts
 			(xy 40.64 102.87) (xy 44.45 102.87)
 		)
 		(stroke
@@ -5281,16 +5291,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 27.94) (xy 74.93 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306e62ad-0c66-4d06-97cb-648a09b52bd0")
-	)
-	(wire
-		(pts
 			(xy 74.93 113.03) (xy 77.47 113.03)
 		)
 		(stroke
@@ -5301,13 +5301,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 27.94) (xy 106.68 38.1)
+			(xy 74.93 36.83) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "340371be-2ddf-4a8a-afef-86496d92fc20")
+		(uuid "33f47677-513c-46fe-983b-aa3cfc147581")
 	)
 	(wire
 		(pts
@@ -5471,6 +5471,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 38.1) (xy 95.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54957427-4659-4a5e-b265-17ce41d7d765")
+	)
+	(wire
+		(pts
 			(xy 111.76 128.27) (xy 111.76 135.89)
 		)
 		(stroke
@@ -5611,7 +5621,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 27.94) (xy 86.36 27.94)
+			(xy 74.93 26.67) (xy 86.36 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5681,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 44.45) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d07c5c5-72b0-4373-ac8f-c6129bf3f31c")
+	)
+	(wire
+		(pts
 			(xy 173.99 81.28) (xy 170.18 81.28)
 		)
 		(stroke
@@ -5711,16 +5731,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 38.1) (xy 86.36 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5fa18a-fd95-4273-9247-86997aff11ee")
-	)
-	(wire
-		(pts
 			(xy 170.18 115.57) (xy 173.99 115.57)
 		)
 		(stroke
@@ -5728,6 +5738,16 @@
 			(type default)
 		)
 		(uuid "6ee39a43-af04-4050-8183-3686bd8803a1")
+	)
+	(wire
+		(pts
+			(xy 86.36 45.72) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f466d90-a8c4-427f-b281-e70faa72c4b4")
 	)
 	(wire
 		(pts
@@ -5751,6 +5771,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 44.45) (xy 106.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a5936c-e8bc-4897-a5a4-7fc4a1b87b0d")
+	)
+	(wire
+		(pts
 			(xy 256.54 59.69) (xy 256.54 62.23)
 		)
 		(stroke
@@ -5761,13 +5791,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 27.94) (xy 86.36 38.1)
+			(xy 95.25 44.45) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77c9a186-015b-4e3c-a1b7-b0382ecaa598")
+		(uuid "7715525b-a5ef-4d96-a5e7-fd86dfde8222")
 	)
 	(wire
 		(pts
@@ -5961,7 +5991,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 86.36 27.94)
+			(xy 86.36 25.4) (xy 86.36 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5988,16 +6018,6 @@
 			(type default)
 		)
 		(uuid "971f4bdb-f5e5-417c-acf5-0d2bc5be0e97")
-	)
-	(wire
-		(pts
-			(xy 74.93 38.1) (xy 74.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d0cf18-09b2-49d9-a2d0-6723674b8104")
 	)
 	(wire
 		(pts
@@ -6161,16 +6181,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 27.94) (xy 106.68 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6526deb-bd81-4e10-a224-eb56010adcc5")
-	)
-	(wire
-		(pts
 			(xy 177.8 106.68) (xy 177.8 105.41)
 		)
 		(stroke
@@ -6281,16 +6291,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 38.1) (xy 86.36 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c63fc296-3505-42df-b549-db22c3ed6b86")
-	)
-	(wire
-		(pts
 			(xy 180.34 106.68) (xy 187.96 106.68)
 		)
 		(stroke
@@ -6348,6 +6348,16 @@
 			(type default)
 		)
 		(uuid "d3424ffa-0e92-4dd9-8cb8-017ca666139d")
+	)
+	(wire
+		(pts
+			(xy 106.68 49.53) (xy 106.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58c9036-ef70-480a-bdd5-659d033b1fb0")
 	)
 	(wire
 		(pts
@@ -6461,7 +6471,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 38.1) (xy 106.68 39.37)
+			(xy 106.68 27.94) (xy 106.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6760,7 +6770,7 @@
 		(uuid "65ba0be4-dc5e-444d-b0a5-2a9c5ec76fd8")
 	)
 	(label "EN"
-		(at 107.95 27.94 0)
+		(at 106.68 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7070,7 +7080,7 @@
 		(uuid "fd0a0171-9646-43dd-b6ea-257eebec7950")
 	)
 	(label "BOOT"
-		(at 86.36 27.94 0)
+		(at 86.36 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7149,7 +7159,7 @@
 			(uuid "6681a37a-6670-403b-a4c5-2acca1ec436d")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP2")
 					(unit 1)
@@ -7228,7 +7238,7 @@
 			(uuid "2a0ab68e-6f2f-47e8-a2eb-54b99fc64286")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R7")
 					(unit 1)
@@ -7308,7 +7318,7 @@
 			(uuid "e2a66af9-cc10-4193-89f4-51c77179b780")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D5")
 					(unit 1)
@@ -7386,7 +7396,7 @@
 			(uuid "0143519d-6192-4089-b0de-91321cfe4076")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#FLG01")
 					(unit 1)
@@ -7466,7 +7476,7 @@
 			(uuid "2d91f810-4157-46e1-8948-3b3af6391155")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R14")
 					(unit 1)
@@ -7545,7 +7555,7 @@
 			(uuid "94b732b3-01b2-4b1f-9057-79c84ed2d7ee")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R6")
 					(unit 1)
@@ -7627,7 +7637,7 @@
 			(uuid "3e72d358-93e2-4e88-8189-87afffe83de3")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R8")
 					(unit 1)
@@ -7709,7 +7719,7 @@
 			(uuid "6a677831-a72f-4077-b48f-da0ee60b0de1")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R11")
 					(unit 1)
@@ -7790,7 +7800,7 @@
 			(uuid "0712cfe5-c3d6-4ac8-adee-c2ea1c570569")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J1")
 					(unit 1)
@@ -7872,7 +7882,7 @@
 			(uuid "38dd67f3-f22e-40ce-a461-12fd1a9ac664")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J4")
 					(unit 1)
@@ -7950,7 +7960,7 @@
 			(uuid "89ecaa1a-80d6-4dbe-a805-9565f6840359")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR012")
 					(unit 1)
@@ -8032,7 +8042,7 @@
 			(uuid "b4c73466-2d68-45b0-bdd7-ba6dc38a6cea")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "SW2")
 					(unit 1)
@@ -8231,7 +8241,7 @@
 			(uuid "7b3b39b6-1a96-4970-9142-d870cac49137")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "U4")
 					(unit 1)
@@ -8310,7 +8320,7 @@
 			(uuid "2b7e0a68-bbbc-4c9e-aac5-157b92145c53")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP5")
 					(unit 1)
@@ -8389,7 +8399,7 @@
 			(uuid "c0904bbf-c935-43e1-bc98-4527c082b690")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR011")
 					(unit 1)
@@ -8469,7 +8479,7 @@
 			(uuid "2b474384-597a-4d06-9c45-e991df52dcf4")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D4")
 					(unit 1)
@@ -8552,7 +8562,7 @@
 			(uuid "5f952bc4-f8a0-4010-834f-9ea83dd2f9a6")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "U3")
 					(unit 1)
@@ -8634,7 +8644,7 @@
 			(uuid "f4d08d66-f77e-409b-a339-871e11c9eed6")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C6")
 					(unit 1)
@@ -8759,7 +8769,7 @@
 			(uuid "b99661d0-41c2-4d42-bcaf-a5c0335d3f9f")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J2")
 					(unit 1)
@@ -8769,7 +8779,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 43.18 0)
+		(at 106.68 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8780,7 +8790,7 @@
 		(fields_autoplaced yes)
 		(uuid "578ffd6a-e5d5-43ab-bfab-5f66531ebc1f")
 		(property "Reference" "C4"
-			(at 111.76 41.9099 0)
+			(at 111.76 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8791,7 +8801,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 111.76 44.4499 0)
+			(at 111.76 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8802,7 +8812,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 107.6452 46.99 0)
+			(at 107.6452 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8813,7 +8823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 43.18 0)
+			(at 106.68 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8824,7 +8834,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 43.18 0)
+			(at 106.68 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8851,7 @@
 			(uuid "1191c59a-8341-442b-959c-a7a76ffae59f")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C4")
 					(unit 1)
@@ -8922,7 +8932,7 @@
 			(uuid "bfd7dc99-ece1-4677-9af5-f9a624241ae9")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C9")
 					(unit 1)
@@ -9000,7 +9010,7 @@
 			(uuid "5cac2518-99a8-4844-9978-2fdc6495908a")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP4")
 					(unit 1)
@@ -9081,7 +9091,7 @@
 			(uuid "16a07b10-da31-4ba5-9862-5a1deecf5bed")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R12")
 					(unit 1)
@@ -9162,7 +9172,7 @@
 			(uuid "442bf91f-246f-4191-8ab3-f7a69b23eb27")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R2")
 					(unit 1)
@@ -9244,7 +9254,7 @@
 			(uuid "49bb25b0-5f6f-4915-b674-f46ddeb453a8")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J3")
 					(unit 1)
@@ -9322,7 +9332,7 @@
 			(uuid "5651a9d6-7e05-4a3b-bdef-95bc2dbcaa58")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR010")
 					(unit 1)
@@ -9402,7 +9412,7 @@
 			(uuid "1ad1a146-0b00-47d2-ad16-764d293c0d24")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C13")
 					(unit 1)
@@ -9481,7 +9491,7 @@
 			(uuid "c9b1c637-0506-4ac1-8f13-234bf12dc93b")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR013")
 					(unit 1)
@@ -9569,7 +9579,7 @@
 			(uuid "67ba0f24-f705-4e61-9193-23bb81c3362a")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q4")
 					(unit 1)
@@ -9648,7 +9658,7 @@
 			(uuid "f2202336-8e10-4c0e-9249-77af3ae0cbb0")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C12")
 					(unit 1)
@@ -9658,7 +9668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 46.99 0)
+		(at 106.68 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9669,7 +9679,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c398df9-ca7c-460a-ada5-8ce0f3518fc7")
 		(property "Reference" "#PWR08"
-			(at 106.68 53.34 0)
+			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9680,7 +9690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 52.07 0)
+			(at 106.68 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9690,7 +9700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 46.99 0)
+			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9701,7 +9711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 46.99 0)
+			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,7 +9722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 46.99 0)
+			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9726,7 +9736,7 @@
 			(uuid "bf39f4b4-0d94-4ba1-8fb3-b36985401ceb")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR08")
 					(unit 1)
@@ -9804,7 +9814,7 @@
 			(uuid "5407ddae-dd52-4418-9d5b-d09893b35113")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR09")
 					(unit 1)
@@ -9882,7 +9892,7 @@
 			(uuid "74da37d5-e7f0-403b-94e7-30cdeca8c4f2")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP3")
 					(unit 1)
@@ -9964,7 +9974,7 @@
 			(uuid "af956a49-15ab-4309-810a-7a350f270326")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R10")
 					(unit 1)
@@ -10043,7 +10053,7 @@
 			(uuid "d4c4dea5-e9c0-4835-ab05-c8f91e79c962")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP6")
 					(unit 1)
@@ -10136,7 +10146,7 @@
 			(uuid "f97bca3f-7c27-4b1d-915f-2e1f40591c84")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D1")
 					(unit 1)
@@ -10215,7 +10225,7 @@
 			(uuid "c017b54d-5a0c-4e0e-8b0f-a96ccbe7f84d")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R4")
 					(unit 1)
@@ -10295,7 +10305,7 @@
 			(uuid "a672400d-151a-4b11-a427-6c6df8567f0a")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R13")
 					(unit 1)
@@ -10419,7 +10429,7 @@
 			(uuid "e9aee114-6d42-479b-9f14-fbb25997c1d9")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "U2")
 					(unit 1)
@@ -10501,7 +10511,7 @@
 			(uuid "83f8f373-fe80-47e7-b809-aee774a231e2")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R3")
 					(unit 1)
@@ -10579,7 +10589,7 @@
 			(uuid "8e1ddb82-857d-4e71-9cea-2822acf3f2e1")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR02")
 					(unit 1)
@@ -10660,7 +10670,7 @@
 			(uuid "291a3cd0-c3c7-4b56-a7e7-08350acd666e")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "SW1")
 					(unit 1)
@@ -10738,7 +10748,7 @@
 			(uuid "2f6e3f13-a605-40ba-b58b-8360eac40078")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR05")
 					(unit 1)
@@ -10748,7 +10758,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 46.99 0)
+		(at 86.36 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10759,7 +10769,7 @@
 		(fields_autoplaced yes)
 		(uuid "b82e3664-82d4-4e00-b902-81b362b086a8")
 		(property "Reference" "#PWR07"
-			(at 86.36 53.34 0)
+			(at 86.36 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10770,7 +10780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 52.07 0)
+			(at 86.36 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10780,7 +10790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 46.99 0)
+			(at 86.36 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10791,7 +10801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 46.99 0)
+			(at 86.36 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10802,7 +10812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 46.99 0)
+			(at 86.36 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10816,7 +10826,7 @@
 			(uuid "f36a9fde-ff55-4925-a735-f7c44d4a6473")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR07")
 					(unit 1)
@@ -10895,7 +10905,7 @@
 			(uuid "d73f5903-aab4-44bd-8414-cc51233dcd85")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C10")
 					(unit 1)
@@ -10977,7 +10987,7 @@
 			(uuid "fdd6f606-6fd2-486f-8c11-80408a0996b2")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C5")
 					(unit 1)
@@ -11059,7 +11069,7 @@
 			(uuid "0a1c8121-d5c4-4b13-a751-fd2e5ef02dcc")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J5")
 					(unit 1)
@@ -11138,7 +11148,7 @@
 			(uuid "513d3ae4-55ae-4acf-a1bf-1214811f2bfc")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR06")
 					(unit 1)
@@ -11227,7 +11237,7 @@
 			(uuid "69bc66a7-6975-42f7-b989-979cc9852075")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D7")
 					(unit 1)
@@ -11308,7 +11318,7 @@
 			(uuid "880ee5bf-4454-4813-96b9-e829c10ee5ef")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R1")
 					(unit 1)
@@ -11388,7 +11398,7 @@
 			(uuid "06f50a39-215a-42c7-ae26-8b3455f5e8d8")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C11")
 					(unit 1)
@@ -11476,7 +11486,7 @@
 			(uuid "2ba01d99-fa6b-4e72-9354-a43d7a47e36d")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q1")
 					(unit 1)
@@ -11557,7 +11567,7 @@
 			(uuid "ab9e3b7d-b6c7-4351-975b-001370141a17")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C8")
 					(unit 1)
@@ -11645,7 +11655,7 @@
 			(uuid "460c49dc-f0ea-4f74-a256-15d2e4e953e5")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q2")
 					(unit 1)
@@ -11724,7 +11734,7 @@
 			(uuid "862e989d-a2f5-43ab-b68b-a543cacded91")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D3")
 					(unit 1)
@@ -11802,7 +11812,7 @@
 			(uuid "a3416e51-cd72-4fee-806f-c22d077e1076")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP1")
 					(unit 1)
@@ -11890,7 +11900,7 @@
 			(uuid "057accdb-a5b7-44b9-a068-d9034931e5ff")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q3")
 					(unit 1)
@@ -11968,7 +11978,7 @@
 			(uuid "db303290-085b-4284-b95f-c65e6a5c2bac")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#FLG02")
 					(unit 1)
@@ -12050,7 +12060,7 @@
 			(uuid "d0938c9a-bec2-4b1c-8e4b-0b85808aa7f9")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R9")
 					(unit 1)
@@ -12130,7 +12140,7 @@
 			(uuid "b87a3537-25e7-4c8a-8c25-6d4bfbd12d1c")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D6")
 					(unit 1)
@@ -12211,7 +12221,7 @@
 			(uuid "3fbb99bf-9e41-44e6-87e2-0c4a589bcce8")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C3")
 					(unit 1)
@@ -12221,7 +12231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 43.18 0)
+		(at 86.36 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12232,7 +12242,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2ef7425-534b-4a5c-a41c-bb9b4362b06d")
 		(property "Reference" "C2"
-			(at 91.44 41.9099 0)
+			(at 91.44 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12243,7 +12253,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 91.44 44.4499 0)
+			(at 91.44 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12254,7 +12264,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 87.3252 46.99 0)
+			(at 87.3252 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12265,7 +12275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 43.18 0)
+			(at 86.36 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12276,7 +12286,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 86.36 43.18 0)
+			(at 86.36 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12293,7 +12303,7 @@
 			(uuid "55945727-c718-4af2-8b32-7ebe2f5f1151")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C2")
 					(unit 1)
@@ -12372,7 +12382,7 @@
 			(uuid "10cf1299-9d6f-476c-ab2d-fba686b5a108")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R5")
 					(unit 1)
@@ -12451,7 +12461,7 @@
 			(uuid "ba2b1606-bc2a-450d-9834-d2fc3ab219f0")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D2")
 					(unit 1)
@@ -12532,7 +12542,7 @@
 			(uuid "94e12249-3031-4574-8ec3-df071579412e")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C1")
 					(unit 1)
@@ -12613,7 +12623,7 @@
 			(uuid "f56a9292-ae81-41e0-a926-3ac1c60d370d")
 		)
 		(instances
-			(project "icarus schematic"
+			(project "icarus schematic (2)"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C7")
 					(unit 1)
