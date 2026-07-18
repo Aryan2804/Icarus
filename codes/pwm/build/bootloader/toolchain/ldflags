@@ -1,2 +1,3 @@
+@"C:/Users/aryan/.vscode/Icarus/build/bootloader/toolchain/ldflags"
 -nostartfiles
 -fno-rtti

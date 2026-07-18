@@ -1,2 +1,2 @@
-source C:/Users/aryan/.vscode/Icarus/build/bootloader/gdbinit/symbols
-source C:/Users/aryan/.vscode/Icarus/build/bootloader/gdbinit/connect
+source C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/gdbinit/symbols
+source C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/gdbinit/connect

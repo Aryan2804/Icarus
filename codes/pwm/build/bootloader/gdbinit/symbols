@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/Users/aryan/.vscode/Icarus/build/bootloader/bootloader.elf
+file C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader/bootloader.elf

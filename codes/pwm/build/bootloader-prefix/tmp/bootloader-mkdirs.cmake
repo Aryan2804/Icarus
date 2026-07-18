@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Espressif/frameworks/esp-idf-v5.5.4/components/bootloader/subp
   file(MAKE_DIRECTORY "C:/Espressif/frameworks/esp-idf-v5.5.4/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/aryan/.vscode/Icarus/build/bootloader"
-  "C:/Users/aryan/.vscode/Icarus/build/bootloader-prefix"
-  "C:/Users/aryan/.vscode/Icarus/build/bootloader-prefix/tmp"
-  "C:/Users/aryan/.vscode/Icarus/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/aryan/.vscode/Icarus/build/bootloader-prefix/src"
-  "C:/Users/aryan/.vscode/Icarus/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader"
+  "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix"
+  "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/tmp"
+  "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/src"
+  "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/aryan/.vscode/Icarus/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/aryan/.vscode/Icarus/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

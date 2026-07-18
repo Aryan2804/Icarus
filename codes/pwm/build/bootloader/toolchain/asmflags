@@ -1,3 +1,4 @@
+@"C:/Users/aryan/.vscode/Icarus/build/bootloader/toolchain/asmflags"
 -Wno-frame-address
 -mlongcalls
 -fno-builtin-memcpy

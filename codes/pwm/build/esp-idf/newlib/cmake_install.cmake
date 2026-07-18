@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/aryan/.vscode/Icarus/build/esp-idf/newlib/src/port/cmake_install.cmake")
+  include("C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/esp-idf/newlib/src/port/cmake_install.cmake")
 endif()
 

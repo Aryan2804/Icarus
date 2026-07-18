@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/aryan/.vscode/Icarus/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

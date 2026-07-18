@@ -14,8 +14,8 @@
     #define LEDC_FREQUENCY          (4000)
     #define MOTORS                  (4)
     
-    static const int MOTOR_GPIO[MOTORS] = {12, 16, 17, 18};
-    static const led_channel_t LEDC_CHANNEL[MOTORS] = {LEDC_CHANNEL_0, LEDC_CHANNEL_1, LEDC_CHANNEL_2, LEDC_CHANNEL_3};
+    static const int MOTOR_GPIO[MOTORS] = {25, 26, 32, 33};
+    static const ledc_channel_t LEDC_CHANNEL[MOTORS] = {LEDC_CHANNEL_0, LEDC_CHANNEL_1, LEDC_CHANNEL_2, LEDC_CHANNEL_3};
 
     void pwm_config (void)
     {
@@ -26,7 +26,7 @@
             .freq_hz          = LEDC_FREQUENCY,  
             .clk_cfg          = LEDC_CLK_SRC,
     };
-        ledc_timer_config(&ledc_timer);
+        ESP_ERROR_CHECK(ledc_timer_config(&ledc_timer));
         for(int i =0; i < MOTORS; i++){
         ledc_channel_config_t ledc_channel = {
             .speed_mode     = LEDC_MODE,
@@ -36,7 +36,7 @@
             .duty           = 0, 
             .hpoint         = 0,
         };
-        ledc_channel_config(&ledc_channel);
+        ESP_ERROR_CHECK(ledc_channel_config(&ledc_channel));
     }
     }
 

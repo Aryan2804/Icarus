@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: C:\Users\aryan\.vscode\Icarus\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: C:\Users\aryan\OneDrive\Desktop\KiCAD\ICARUS\icarus_schematic\codes\pwm\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

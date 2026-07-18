@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/aryan/.vscode/Icarus/main
+# Install script for directory: C:/Users/aryan/OneDrive/Desktop/KiCAD/ICARUS/icarus_schematic/codes/pwm/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
