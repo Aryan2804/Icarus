@@ -1,6 +1,6 @@
 Icarus is a quadcopter project by Roshan Castelino, Astha Sharma and Aryan Ghughare.
 Our main goal for this project is to create a drone which uses 8520 brushed motors and A ESP32-S3-Wroom-1 board as these were the specifications provided by our mentors.
-
+## Components
 We initially decided to finalise our components and structure which we will use in the project in order to have a base for the project,
 **Our main components and sensors decided are:**
 1. ESP32-S3-Wroom-1 board (Main Microcontroller)
@@ -10,7 +10,7 @@ We initially decided to finalise our components and structure which we will use 
 
 
 We selected the BMI088—a high-performance, 6-degree-of-freedom Inertial Measurement Unit (IMU)—specifically for its excellent vibration suppression and optimization for aerial environments, which are critical for stable drone flight.
-
+## Goals
 To bring Project Icarus to completion, we mapped out the following milestones:
 **Hardware & Structural Design:**
 1. Designing the system schematic.
