@@ -1,0 +1,8 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=D:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 C:\Users\Admin\ESP32S3-Sense-OV3660
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.5.4-3/tools/cmake/project.cmake:683 (message):
+  SDKCONFIG_DEFAULTS 'C:/Users/Admin/ESP32S3-Sense-OV3660/sdkconfig.defaults'
+  does not exist.
+Call Stack (most recent call first):
+  CMakeLists.txt:14 (project)
+
+

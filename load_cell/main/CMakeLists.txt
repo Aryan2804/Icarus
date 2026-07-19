@@ -1,0 +1,1 @@
+idf_component_register(SRCS "load_cell2.c" INCLUDE_DIRS "." REQUIRES hx711)

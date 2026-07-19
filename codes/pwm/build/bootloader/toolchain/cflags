@@ -1,6 +1,0 @@
-@"C:/Users/aryan/.vscode/Icarus/build/bootloader/toolchain/cflags"
--Wno-frame-address
--mlongcalls
--fno-builtin-memcpy
--fno-builtin-memset
--fno-builtin-bzero
