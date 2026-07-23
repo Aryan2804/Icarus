@@ -5,6 +5,187 @@
 	(uuid "7d2f9570-06fd-4dce-9677-8ff41db13bde")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -4465,7 +4646,7 @@
 	)
 	(rectangle
 		(start 13.97 13.97)
-		(end 63.5 54.61)
+		(end 63.5 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -4477,7 +4658,7 @@
 	)
 	(rectangle
 		(start 212.09 13.97)
-		(end 284.48 71.12)
+		(end 283.21 71.12)
 		(stroke
 			(width 0)
 			(type default)
@@ -4488,8 +4669,8 @@
 		(uuid "8921b26c-2372-44ac-869d-4a0e162cb200")
 	)
 	(rectangle
-		(start 66.04 13.97)
-		(end 124.46 54.61)
+		(start 64.77 13.97)
+		(end 123.19 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -4500,8 +4681,20 @@
 		(uuid "ae437dcf-cec3-4ec0-927d-0dc1eaeedd98")
 	)
 	(rectangle
-		(start 13.97 55.88)
-		(end 104.14 139.7)
+		(start 182.88 13.97)
+		(end 210.82 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b83f3fe8-d3a9-4d84-ae14-0fc64928bf0b")
+	)
+	(rectangle
+		(start 13.97 59.69)
+		(end 104.14 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -4512,8 +4705,8 @@
 		(uuid "bd9ec7a9-4e64-4e14-ba07-1abffefca53d")
 	)
 	(rectangle
-		(start 127 13.97)
-		(end 184.15 58.42)
+		(start 124.46 13.97)
+		(end 181.61 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -4537,7 +4730,7 @@
 	)
 	(text "VOLTAGE REGULATOR(3.3V)"
 		(exclude_from_sim no)
-		(at 27.178 53.34 0)
+		(at 27.178 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,7 +4740,7 @@
 	)
 	(text "ENABLE AND BOOT "
 		(exclude_from_sim no)
-		(at 75.438 53.848 0)
+		(at 74.422 57.404 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4567,7 +4760,7 @@
 	)
 	(text "ESP-32 S3 WROOM_1"
 		(exclude_from_sim no)
-		(at 25.146 137.922 0)
+		(at 24.638 147.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4587,13 +4780,23 @@
 	)
 	(text "BMI 088"
 		(exclude_from_sim no)
-		(at 131.318 57.15 0)
+		(at 128.778 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "dbba0c52-1b70-4422-8687-bfecdc5713b0")
+	)
+	(text "Camera socket"
+		(exclude_from_sim no)
+		(at 190.5 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc7c490c-8668-4029-a07b-1b5e35db0052")
 	)
 	(junction
 		(at 243.84 34.29)
@@ -4674,7 +4877,7 @@
 		(uuid "5956e2b5-9e24-4333-8ab7-6b793f74c990")
 	)
 	(junction
-		(at 86.36 44.45)
+		(at 85.09 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef831a4-3064-4d6f-9261-0b7f6e3e5b3d")
@@ -4686,7 +4889,7 @@
 		(uuid "623934a4-0356-4f09-a09f-97cb742fb34d")
 	)
 	(junction
-		(at 86.36 26.67)
+		(at 85.09 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6555e087-e6d2-4f8c-a4e0-e2a91df3848a")
@@ -4698,7 +4901,7 @@
 		(uuid "6934d343-4fb9-4441-823e-d7deb8af2e9a")
 	)
 	(junction
-		(at 77.47 74.93)
+		(at 77.47 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6995ada6-c270-4c6e-9470-068427cf73c6")
@@ -4752,7 +4955,7 @@
 		(uuid "a1e96481-f5e9-48d2-a50d-187fa3ee5a76")
 	)
 	(junction
-		(at 106.68 27.94)
+		(at 105.41 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a57c9ea4-a2b9-4a39-a980-ab38fdd79b17")
@@ -4764,7 +4967,7 @@
 		(uuid "a95aad91-2790-476b-9610-ac2d9d8b8b2f")
 	)
 	(junction
-		(at 156.21 50.8)
+		(at 153.67 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae443673-d254-43ea-a989-a01c0bb729de")
@@ -4788,7 +4991,7 @@
 		(uuid "bcb2b73d-ef73-472f-b098-c7b58c33cf81")
 	)
 	(junction
-		(at 106.68 44.45)
+		(at 105.41 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c035c5a5-1e1d-4f21-9ba1-728e192cfaf1")
@@ -4800,13 +5003,13 @@
 		(uuid "c3462000-d976-479e-b8d9-10fccad78642")
 	)
 	(junction
-		(at 151.13 50.8)
+		(at 148.59 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6fc0f75-9fd3-4fbc-8245-e8883ef712d8")
 	)
 	(junction
-		(at 166.37 50.8)
+		(at 163.83 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca38b2d9-5013-4362-8d7c-c5bf4dc72484")
@@ -4860,67 +5063,67 @@
 		(uuid "f5b5e779-7078-4134-a9fa-11602a7b991a")
 	)
 	(no_connect
-		(at 44.45 97.79)
+		(at 44.45 101.6)
 		(uuid "06299cc7-d9ec-481c-8ad2-c5b480eb010e")
 	)
 	(no_connect
-		(at 140.97 33.02)
+		(at 138.43 33.02)
 		(uuid "1b638b9f-ee46-4f0c-8515-fc40ed1b4e16")
 	)
 	(no_connect
-		(at 44.45 92.71)
+		(at 44.45 96.52)
 		(uuid "1dfaf56a-1f29-4a1f-aa02-bbb0c5b36843")
 	)
 	(no_connect
-		(at 44.45 74.93)
+		(at 44.45 78.74)
 		(uuid "22f159b0-3b67-4622-b067-696147f4849a")
 	)
 	(no_connect
-		(at 44.45 90.17)
+		(at 44.45 93.98)
 		(uuid "3082f3a0-068f-48e9-bead-386293993ff1")
 	)
 	(no_connect
-		(at 44.45 82.55)
+		(at 44.45 86.36)
 		(uuid "358cad54-9cd3-447c-949b-ef422c7bf7bb")
 	)
 	(no_connect
-		(at 74.93 95.25)
+		(at 74.93 99.06)
 		(uuid "54f925f2-13ab-4c6f-b4be-c6c21f3955f7")
 	)
 	(no_connect
-		(at 44.45 110.49)
+		(at 44.45 114.3)
 		(uuid "61688f0e-bf56-41bb-a50d-414c771b5177")
 	)
 	(no_connect
-		(at 44.45 80.01)
+		(at 44.45 83.82)
 		(uuid "62445efc-bd31-436e-912e-1c1c9e4bc198")
 	)
 	(no_connect
-		(at 44.45 113.03)
+		(at 44.45 116.84)
 		(uuid "6615c081-6e52-4ffa-a6eb-b9c094167592")
 	)
 	(no_connect
-		(at 74.93 85.09)
+		(at 74.93 88.9)
 		(uuid "66370140-2af2-4a1f-805e-09722d040fb8")
 	)
 	(no_connect
-		(at 140.97 43.18)
+		(at 138.43 43.18)
 		(uuid "67577c3f-7ebb-4fd3-b36b-b6aa6a2e0a51")
 	)
 	(no_connect
-		(at 44.45 118.11)
+		(at 44.45 121.92)
 		(uuid "6eea6e14-e8ab-424a-81a5-5347f1c70e62")
 	)
 	(no_connect
-		(at 44.45 120.65)
+		(at 44.45 124.46)
 		(uuid "732dfbb7-a117-4e6a-8256-ea9dda2bbc15")
 	)
 	(no_connect
-		(at 74.93 120.65)
+		(at 74.93 124.46)
 		(uuid "8889cc49-8313-4247-acf8-f5894b52fd9d")
 	)
 	(no_connect
-		(at 74.93 118.11)
+		(at 74.93 121.92)
 		(uuid "8c8553ed-48f6-410b-9192-551140e2b0ab")
 	)
 	(no_connect
@@ -4928,19 +5131,19 @@
 		(uuid "9d7ed219-399c-4151-b2dd-f7e499d7191d")
 	)
 	(no_connect
-		(at 44.45 77.47)
+		(at 44.45 81.28)
 		(uuid "a4dcc3df-d346-4de4-ad1c-338a9f3172b5")
 	)
 	(no_connect
-		(at 44.45 115.57)
+		(at 44.45 119.38)
 		(uuid "a9c22d12-fe26-4056-9eb4-40fddabfd772")
 	)
 	(no_connect
-		(at 44.45 95.25)
+		(at 44.45 99.06)
 		(uuid "b3fef117-024c-492e-878b-b45aa74fc02b")
 	)
 	(no_connect
-		(at 74.93 100.33)
+		(at 74.93 104.14)
 		(uuid "b6cc6c5a-9b77-4793-bdef-a363fd0714d5")
 	)
 	(no_connect
@@ -4948,20 +5151,20 @@
 		(uuid "b83f8659-d486-459f-b370-27712084bad1")
 	)
 	(no_connect
-		(at 74.93 87.63)
+		(at 74.93 91.44)
 		(uuid "bbd3436a-3a10-4ba8-9d2c-f61b11bf71bc")
 	)
 	(no_connect
-		(at 74.93 97.79)
+		(at 74.93 101.6)
 		(uuid "c936ffc6-755b-4b4d-91e4-15b14bafb5c9")
 	)
 	(no_connect
-		(at 74.93 82.55)
+		(at 74.93 86.36)
 		(uuid "e2868c0e-afd1-418b-b744-09d3dcd90997")
 	)
 	(wire
 		(pts
-			(xy 130.81 38.1) (xy 130.81 50.8)
+			(xy 128.27 38.1) (xy 128.27 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4991,7 +5194,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 107.95) (xy 44.45 107.95)
+			(xy 40.64 111.76) (xy 44.45 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5011,17 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 116.84) (xy 194.31 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "087bf97f-e42b-4310-a47e-8edb4c506008")
-	)
-	(wire
-		(pts
-			(xy 106.68 25.4) (xy 106.68 27.94)
+			(xy 105.41 25.4) (xy 105.41 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5031,7 +5224,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 17.78) (xy 176.53 17.78)
+			(xy 153.67 17.78) (xy 173.99 17.78)
 		)
 		(stroke
 			(width 0)
@@ -5041,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 86.36 44.45)
+			(xy 85.09 43.18) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5051,7 +5244,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 26.67) (xy 86.36 35.56)
+			(xy 85.09 26.67) (xy 85.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5151,7 +5344,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 45.72) (xy 166.37 50.8)
+			(xy 194.31 106.68) (xy 194.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf8d6a3-b0ef-4e42-b4c9-e95b67e56f69")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 163.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5171,7 +5374,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 74.93) (xy 86.36 74.93)
+			(xy 77.47 78.74) (xy 86.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5191,7 +5394,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 102.87) (xy 44.45 102.87)
+			(xy 40.64 106.68) (xy 44.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5211,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 77.47 74.93)
+			(xy 77.47 71.12) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5291,7 +5494,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 113.03) (xy 77.47 113.03)
+			(xy 74.93 116.84) (xy 77.47 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5301,7 +5504,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 74.93 44.45)
+			(xy 73.66 36.83) (xy 73.66 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +5524,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 102.87) (xy 77.47 102.87)
+			(xy 74.93 106.68) (xy 77.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5331,7 +5534,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 92.71) (xy 77.47 92.71)
+			(xy 74.93 96.52) (xy 77.47 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5351,7 +5554,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 38.1) (xy 166.37 38.1)
+			(xy 166.37 38.1) (xy 163.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5381,7 +5584,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 115.57) (xy 77.47 115.57)
+			(xy 74.93 119.38) (xy 77.47 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5451,7 +5654,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 38.1) (xy 176.53 50.8)
+			(xy 173.99 38.1) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5471,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 38.1) (xy 95.25 44.45)
+			(xy 93.98 38.1) (xy 93.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5501,7 +5704,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 50.8) (xy 166.37 50.8)
+			(xy 153.67 50.8) (xy 163.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5531,7 +5734,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 50.8) (xy 176.53 50.8)
+			(xy 163.83 50.8) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 109.22) (xy 205.74 106.68)
+			(xy 205.74 106.68) (xy 205.74 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5581,7 +5784,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 105.41) (xy 44.45 105.41)
+			(xy 40.64 109.22) (xy 44.45 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5591,23 +5794,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 107.95) (xy 77.47 107.95)
+			(xy 74.93 111.76) (xy 77.47 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5ebce8fd-249a-4cc8-af1e-728ffc985f98")
-	)
-	(wire
-		(pts
-			(xy 194.31 106.68) (xy 194.31 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60b61e85-a801-4f6e-91f3-2c2d364190c9")
 	)
 	(wire
 		(pts
@@ -5621,7 +5814,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 26.67) (xy 86.36 26.67)
+			(xy 73.66 26.67) (xy 85.09 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5651,13 +5844,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 110.49) (xy 77.47 110.49)
+			(xy 74.93 114.3) (xy 77.47 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "668fea32-8b69-4c48-9695-0b581bf3f733")
+	)
+	(wire
+		(pts
+			(xy 184.15 31.75) (xy 187.96 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b17034-0192-43e9-929d-a5d35604dced")
 	)
 	(wire
 		(pts
@@ -5691,7 +5894,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 44.45) (xy 86.36 44.45)
+			(xy 73.66 44.45) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5741,7 +5944,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 86.36 44.45)
+			(xy 85.09 45.72) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5771,7 +5974,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 106.68 43.18)
+			(xy 105.41 44.45) (xy 105.41 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5791,7 +5994,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 44.45) (xy 106.68 44.45)
+			(xy 93.98 44.45) (xy 105.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5808,6 +6011,16 @@
 			(type default)
 		)
 		(uuid "7900384d-687e-4f56-ba59-93789348c88a")
+	)
+	(wire
+		(pts
+			(xy 194.31 114.3) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5f543a-e119-4c77-9212-78fb26156854")
 	)
 	(wire
 		(pts
@@ -5841,7 +6054,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 17.78) (xy 176.53 30.48)
+			(xy 173.99 17.78) (xy 173.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5871,7 +6084,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 27.94) (xy 106.68 27.94)
+			(xy 93.98 27.94) (xy 105.41 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +6094,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 116.84) (xy 205.74 119.38)
+			(xy 205.74 114.3) (xy 205.74 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5991,7 +6204,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 86.36 26.67)
+			(xy 85.09 25.4) (xy 85.09 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6041,7 +6254,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 100.33) (xy 44.45 100.33)
+			(xy 40.64 104.14) (xy 44.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6071,7 +6284,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 16.51) (xy 130.81 30.48)
+			(xy 128.27 16.51) (xy 128.27 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6081,7 +6294,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 77.47 90.17)
+			(xy 74.93 93.98) (xy 77.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6121,7 +6334,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 17.78) (xy 156.21 20.32)
+			(xy 153.67 17.78) (xy 153.67 20.32)
 		)
 		(stroke
 			(width 0)
@@ -6131,7 +6344,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 74.93) (xy 77.47 74.93)
+			(xy 74.93 78.74) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6191,7 +6404,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 156.21 50.8)
+			(xy 148.59 50.8) (xy 153.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6221,7 +6434,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 40.64) (xy 168.91 40.64)
+			(xy 163.83 40.64) (xy 166.37 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6281,7 +6494,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 151.13 50.8)
+			(xy 128.27 50.8) (xy 148.59 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6301,7 +6514,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 16.51) (xy 151.13 20.32)
+			(xy 148.59 16.51) (xy 148.59 20.32)
 		)
 		(stroke
 			(width 0)
@@ -6341,7 +6554,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 16.51) (xy 130.81 16.51)
+			(xy 148.59 16.51) (xy 128.27 16.51)
 		)
 		(stroke
 			(width 0)
@@ -6351,7 +6564,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 106.68 44.45)
+			(xy 105.41 49.53) (xy 105.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6441,7 +6654,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 58.42) (xy 77.47 59.69)
+			(xy 77.47 62.23) (xy 77.47 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6471,7 +6684,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 27.94) (xy 106.68 35.56)
+			(xy 105.41 27.94) (xy 105.41 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6521,7 +6734,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 87.63) (xy 44.45 87.63)
+			(xy 38.1 91.44) (xy 44.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6581,7 +6794,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 77.47 105.41)
+			(xy 74.93 109.22) (xy 77.47 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6621,7 +6834,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 80.01) (xy 77.47 80.01)
+			(xy 74.93 83.82) (xy 77.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6661,7 +6874,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 85.09) (xy 44.45 85.09)
+			(xy 38.1 88.9) (xy 44.45 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6680,7 +6893,7 @@
 		(uuid "ff3aec7d-e385-48d5-8613-186b70ab6f0b")
 	)
 	(label "SD02"
-		(at 77.47 115.57 0)
+		(at 77.47 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6690,7 +6903,7 @@
 		(uuid "126a89a1-d8a6-4816-9e36-240c9c45c54f")
 	)
 	(label "USB_D+"
-		(at 38.1 87.63 0)
+		(at 38.1 91.44 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -6710,7 +6923,7 @@
 		(uuid "1be47cae-8881-4d15-9986-5f88b961f7c7")
 	)
 	(label "EN"
-		(at 77.47 74.93 0)
+		(at 77.47 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6718,6 +6931,16 @@
 			(justify left bottom)
 		)
 		(uuid "1ffa45d4-eb46-478b-bdf5-f68be4b09948")
+	)
+	(label "5V"
+		(at 184.15 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21010912-d0f5-4050-a6ca-9607351141df")
 	)
 	(label "5V"
 		(at 279.4 26.67 0)
@@ -6730,7 +6953,7 @@
 		(uuid "27c4511b-56e7-467f-8ebf-81e3b4604df4")
 	)
 	(label "INT3"
-		(at 77.47 92.71 0)
+		(at 77.47 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6740,7 +6963,7 @@
 		(uuid "328b2169-e066-4b91-98fa-49085a483a51")
 	)
 	(label "3.3V"
-		(at 86.36 17.78 0)
+		(at 85.09 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6750,7 +6973,7 @@
 		(uuid "3c204f3c-71bb-4af3-a21d-2a2231a95a9b")
 	)
 	(label "SD01"
-		(at 168.91 38.1 0)
+		(at 166.37 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6760,7 +6983,7 @@
 		(uuid "4fc3a936-9a86-4c91-9ac9-2385da04f6aa")
 	)
 	(label "INT1"
-		(at 140.97 27.94 180)
+		(at 138.43 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6770,7 +6993,7 @@
 		(uuid "65ba0be4-dc5e-444d-b0a5-2a9c5ec76fd8")
 	)
 	(label "EN"
-		(at 106.68 27.94 0)
+		(at 105.41 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6790,7 +7013,7 @@
 		(uuid "84954a55-871e-4643-ba41-a1a03ad20b98")
 	)
 	(label "M4"
-		(at 33.02 107.95 180)
+		(at 33.02 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6800,7 +7023,7 @@
 		(uuid "897bfa17-dd10-40dd-a63f-f0878b2470ef")
 	)
 	(label "M3"
-		(at 33.02 105.41 180)
+		(at 33.02 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6810,7 +7033,7 @@
 		(uuid "8fc8cda3-50cb-4663-aae5-cb95c80438a9")
 	)
 	(label "3.3V"
-		(at 106.68 17.78 0)
+		(at 105.41 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6820,7 +7043,7 @@
 		(uuid "97fad1cf-d797-4d5a-8a46-a3f991ca7f98")
 	)
 	(label "USB_D-"
-		(at 38.1 85.09 0)
+		(at 38.1 88.9 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -6840,7 +7063,7 @@
 		(uuid "98c8ba71-0c4e-4159-bda2-e9a7ce09001b")
 	)
 	(label "SCK"
-		(at 166.37 33.02 0)
+		(at 163.83 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6860,7 +7083,7 @@
 		(uuid "a5e5c57e-0403-467a-9c80-ebf678ee43d2")
 	)
 	(label "SDI"
-		(at 166.37 35.56 0)
+		(at 163.83 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6870,7 +7093,7 @@
 		(uuid "a96d8ede-8f46-4787-9516-8044bd1d7cfc")
 	)
 	(label "M2"
-		(at 33.02 102.87 180)
+		(at 33.02 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6879,8 +7102,18 @@
 		)
 		(uuid "b60a55bc-8984-4a11-abbf-787261d03b84")
 	)
+	(label "5V"
+		(at 194.31 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b860c983-7ac2-47ad-9ae5-8c9d06b78699")
+	)
 	(label "BOOT"
-		(at 77.47 80.01 0)
+		(at 77.47 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6890,7 +7123,7 @@
 		(uuid "bce0f2f0-5838-4f92-90f8-07322c84da1b")
 	)
 	(label "3.3V"
-		(at 156.21 17.78 0)
+		(at 153.67 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6920,7 +7153,7 @@
 		(uuid "c29e577f-7219-4d78-b1d5-cd92f328c60a")
 	)
 	(label "SD01"
-		(at 77.47 113.03 0)
+		(at 77.47 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6930,7 +7163,7 @@
 		(uuid "c3180ce6-bb0f-4445-b7a6-348cc8d6eb6d")
 	)
 	(label "SDI"
-		(at 77.47 107.95 0)
+		(at 77.47 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6940,7 +7173,7 @@
 		(uuid "c4b59dbe-b8b3-4029-ad85-64084f9b63af")
 	)
 	(label "INT3"
-		(at 140.97 38.1 180)
+		(at 138.43 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6950,7 +7183,7 @@
 		(uuid "c823978b-8438-42e1-ba2c-8653b6d5bf2c")
 	)
 	(label "SCK"
-		(at 77.47 110.49 0)
+		(at 77.47 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6960,7 +7193,7 @@
 		(uuid "c9e0f896-bdc2-4fc4-9643-3da3dcffaa1b")
 	)
 	(label "CSB2"
-		(at 166.37 30.48 0)
+		(at 163.83 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6980,7 +7213,7 @@
 		(uuid "d3280376-e304-4e40-81d6-f0d785119f6e")
 	)
 	(label "M1"
-		(at 33.02 100.33 180)
+		(at 33.02 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6990,7 +7223,7 @@
 		(uuid "d399f371-5c91-48cf-adf2-82300d61d15e")
 	)
 	(label "SD02"
-		(at 168.91 40.64 0)
+		(at 166.37 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7000,7 +7233,7 @@
 		(uuid "d3bab59b-8e38-45db-a7fe-279f4d14ad33")
 	)
 	(label "CSB1"
-		(at 166.37 27.94 0)
+		(at 163.83 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7010,7 +7243,7 @@
 		(uuid "d92a4dc7-5fcb-4331-856f-25d283df7ab5")
 	)
 	(label "3.3V"
-		(at 59.69 69.85 0)
+		(at 59.69 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7020,7 +7253,7 @@
 		(uuid "dc38345d-9f96-4bb8-b0ca-6b366052cb64")
 	)
 	(label "3.3V"
-		(at 151.13 17.78 0)
+		(at 148.59 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7030,7 +7263,7 @@
 		(uuid "ec14b78c-0a6c-4c2a-afc3-30aa39579bb6")
 	)
 	(label "CSB1"
-		(at 77.47 105.41 0)
+		(at 77.47 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7040,7 +7273,7 @@
 		(uuid "ecc41a89-050b-470e-91a3-3913c4868d98")
 	)
 	(label "INT1"
-		(at 77.47 90.17 0)
+		(at 77.47 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7050,7 +7283,7 @@
 		(uuid "ef464801-1fc8-4457-9a2b-bba779f796c5")
 	)
 	(label "CSB2"
-		(at 77.47 102.87 0)
+		(at 77.47 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7070,7 +7303,7 @@
 		(uuid "f5db57b5-033c-4fd3-b183-bc4e37a12202")
 	)
 	(label "3.3V"
-		(at 77.47 58.42 0)
+		(at 77.47 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7080,7 +7313,7 @@
 		(uuid "fd0a0171-9646-43dd-b6ea-257eebec7950")
 	)
 	(label "BOOT"
-		(at 86.36 26.67 0)
+		(at 85.09 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7101,7 +7334,7 @@
 		(dnp no)
 		(uuid "09004dc9-e521-4688-a9fa-4eb2b49c6ce5")
 		(property "Reference" "TP2"
-			(at 118.364 65.278 0)
+			(at 118.364 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7159,7 +7392,7 @@
 			(uuid "6681a37a-6670-403b-a4c5-2acca1ec436d")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP2")
 					(unit 1)
@@ -7169,7 +7402,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 107.95 270)
+		(at 36.83 111.76 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7179,7 +7412,7 @@
 		(dnp no)
 		(uuid "0acf98ed-e9eb-4e27-b370-62f201851f4f")
 		(property "Reference" "R7"
-			(at 40.894 106.934 90)
+			(at 40.894 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7189,7 +7422,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 36.83 107.95 90)
+			(at 36.83 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7199,7 +7432,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.83 106.172 90)
+			(at 36.83 109.982 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +7443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 107.95 0)
+			(at 36.83 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7221,7 +7454,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 107.95 0)
+			(at 36.83 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7238,7 +7471,7 @@
 			(uuid "2a0ab68e-6f2f-47e8-a2eb-54b99fc64286")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R7")
 					(unit 1)
@@ -7318,7 +7551,7 @@
 			(uuid "e2a66af9-cc10-4193-89f4-51c77179b780")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D5")
 					(unit 1)
@@ -7336,7 +7569,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12278507-589a-4994-961e-da7263a42b90")
 		(property "Reference" "#FLG01"
 			(at 279.4 19.685 0)
@@ -7350,7 +7582,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 279.4 16.51 0)
+			(at 277.876 17.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7396,7 +7628,7 @@
 			(uuid "0143519d-6192-4089-b0de-91321cfe4076")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#FLG01")
 					(unit 1)
@@ -7476,7 +7708,7 @@
 			(uuid "2d91f810-4157-46e1-8948-3b3af6391155")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R14")
 					(unit 1)
@@ -7486,7 +7718,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 105.41 270)
+		(at 36.83 109.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7496,7 +7728,7 @@
 		(dnp no)
 		(uuid "1a12c4a1-9845-4d29-a30c-f8ad73558b66")
 		(property "Reference" "R6"
-			(at 40.894 104.394 90)
+			(at 40.894 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7506,7 +7738,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 36.83 105.41 90)
+			(at 36.83 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7516,7 +7748,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.83 103.632 90)
+			(at 36.83 107.442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +7759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 105.41 0)
+			(at 36.83 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7538,7 +7770,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 105.41 0)
+			(at 36.83 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +7787,7 @@
 			(uuid "94b732b3-01b2-4b1f-9057-79c84ed2d7ee")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R6")
 					(unit 1)
@@ -7637,7 +7869,7 @@
 			(uuid "3e72d358-93e2-4e88-8189-87afffe83de3")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R8")
 					(unit 1)
@@ -7719,7 +7951,7 @@
 			(uuid "6a677831-a72f-4077-b48f-da0ee60b0de1")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R11")
 					(unit 1)
@@ -7800,7 +8032,7 @@
 			(uuid "0712cfe5-c3d6-4ac8-adee-c2ea1c570569")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J1")
 					(unit 1)
@@ -7882,7 +8114,7 @@
 			(uuid "38dd67f3-f22e-40ce-a461-12fd1a9ac664")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J4")
 					(unit 1)
@@ -7892,7 +8124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 125.73 0)
+		(at 59.69 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7903,7 +8135,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f409138-40e7-4c3e-87e1-0a6a923e65e1")
 		(property "Reference" "#PWR012"
-			(at 59.69 132.08 0)
+			(at 59.69 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7914,7 +8146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 130.81 0)
+			(at 59.69 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7924,7 +8156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 125.73 0)
+			(at 59.69 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +8167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 125.73 0)
+			(at 59.69 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +8178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 125.73 0)
+			(at 59.69 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7960,7 +8192,7 @@
 			(uuid "89ecaa1a-80d6-4dbe-a805-9565f6840359")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR012")
 					(unit 1)
@@ -7970,7 +8202,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 95.25 33.02 90)
+		(at 93.98 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7981,7 +8213,7 @@
 		(fields_autoplaced yes)
 		(uuid "2faa5391-8ae7-40f3-83fe-74d01d24a28d")
 		(property "Reference" "SW2"
-			(at 96.52 31.7499 90)
+			(at 95.25 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7992,7 +8224,7 @@
 			)
 		)
 		(property "Value" "SW_Push(EN)"
-			(at 96.52 34.2899 90)
+			(at 95.25 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8003,7 +8235,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
-			(at 90.17 33.02 0)
+			(at 88.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8014,7 +8246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 33.02 0)
+			(at 88.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,7 +8257,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 33.02 0)
+			(at 93.98 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +8274,7 @@
 			(uuid "b4c73466-2d68-45b0-bdd7-ba6dc38a6cea")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "SW2")
 					(unit 1)
@@ -8052,7 +8284,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
-		(at 59.69 97.79 0)
+		(at 59.69 101.6 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8063,7 +8295,7 @@
 		(dnp no)
 		(uuid "30a9497a-40b4-470e-b09d-1d033ea9881b")
 		(property "Reference" "U4"
-			(at 56.134 65.024 0)
+			(at 56.134 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8074,7 +8306,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 56.134 67.564 0)
+			(at 56.134 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8085,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
-			(at 59.69 95.25 0)
+			(at 59.69 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,7 +8328,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 59.69 97.79 0)
+			(at 59.69 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8107,7 +8339,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 59.69 97.79 0)
+			(at 59.69 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8241,88 +8473,9 @@
 			(uuid "7b3b39b6-1a96-4970-9142-d870cac49137")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 194.31 109.22 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38773627-a168-471d-9ee0-66dc58fc06e7")
-		(property "Reference" "TP5"
-			(at 199.39 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 199.39 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 194.31 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b7e0a68-bbbc-4c9e-aac5-157b92145c53")
-		)
-		(instances
-			(project "icarus schematic (2)"
-				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8399,7 +8552,7 @@
 			(uuid "c0904bbf-c935-43e1-bc98-4527c082b690")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR011")
 					(unit 1)
@@ -8417,10 +8570,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41085e76-66fb-4b32-b03e-d4e45655ff5e")
 		(property "Reference" "D4"
-			(at 179.3875 58.42 0)
+			(at 179.324 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8430,7 +8582,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 179.3875 60.96 0)
+			(at 179.324 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8479,7 +8631,7 @@
 			(uuid "2b474384-597a-4d06-9c45-e991df52dcf4")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D4")
 					(unit 1)
@@ -8562,7 +8714,7 @@
 			(uuid "5f952bc4-f8a0-4010-834f-9ea83dd2f9a6")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "U3")
 					(unit 1)
@@ -8572,7 +8724,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 34.29 0)
+		(at 128.27 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8583,7 +8735,7 @@
 		(fields_autoplaced yes)
 		(uuid "47ddf12a-8881-4be5-816f-6cf8d6419109")
 		(property "Reference" "C6"
-			(at 134.62 33.0199 0)
+			(at 132.08 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8594,7 +8746,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 134.62 35.5599 0)
+			(at 132.08 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8605,7 +8757,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 131.7752 38.1 0)
+			(at 129.2352 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,7 +8768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 34.29 0)
+			(at 128.27 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8627,7 +8779,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 130.81 34.29 0)
+			(at 128.27 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,9 +8796,90 @@
 			(uuid "f4d08d66-f77e-409b-a339-871e11c9eed6")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 199.39 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b50d1fc-7d0b-46b1-adb1-aeacd967806c")
+		(property "Reference" "J6"
+			(at 190.754 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 192.786 121.666 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 199.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 199.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cae9971-328f-4356-905e-d01779069f5c")
+		)
+		(pin "2"
+			(uuid "504bbab8-b9de-407e-8654-b9044ac0eab5")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8769,7 +9002,7 @@
 			(uuid "b99661d0-41c2-4d42-bcaf-a5c0335d3f9f")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J2")
 					(unit 1)
@@ -8779,7 +9012,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 106.68 39.37 0)
+		(at 105.41 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8790,7 +9023,7 @@
 		(fields_autoplaced yes)
 		(uuid "578ffd6a-e5d5-43ab-bfab-5f66531ebc1f")
 		(property "Reference" "C4"
-			(at 111.76 38.0999 0)
+			(at 110.49 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8801,7 +9034,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 111.76 40.6399 0)
+			(at 110.49 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8812,7 +9045,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 107.6452 43.18 0)
+			(at 106.3752 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8823,7 +9056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 39.37 0)
+			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +9067,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 106.68 39.37 0)
+			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +9084,7 @@
 			(uuid "1191c59a-8341-442b-959c-a7a76ffae59f")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C4")
 					(unit 1)
@@ -8861,7 +9094,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 74.93 270)
+		(at 90.17 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8871,7 +9104,7 @@
 		(dnp no)
 		(uuid "5c58ea31-dea7-482f-b6f5-8272d9c8c606")
 		(property "Reference" "C9"
-			(at 91.948 72.136 90)
+			(at 91.948 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8882,7 +9115,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 91.44 69.85 90)
+			(at 91.44 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8893,7 +9126,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 86.36 75.8952 0)
+			(at 86.36 79.7052 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8904,7 +9137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 74.93 0)
+			(at 90.17 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,7 +9148,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 74.93 0)
+			(at 90.17 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +9165,7 @@
 			(uuid "bfd7dc99-ece1-4677-9af5-f9a624241ae9")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C9")
 					(unit 1)
@@ -9010,7 +9243,7 @@
 			(uuid "5cac2518-99a8-4844-9978-2fdc6495908a")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP4")
 					(unit 1)
@@ -9019,8 +9252,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 77.47 63.5 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 193.04 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9028,31 +9261,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "61651a19-fd5c-43bc-afc4-d4c1344922ae")
-		(property "Reference" "R12"
-			(at 71.628 65.024 0)
+		(fields_autoplaced yes)
+		(uuid "5e694d30-5300-41dd-9c0d-52ef7ea53a40")
+		(property "Reference" "J8"
+			(at 194.31 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 70.612 62.484 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 194.31 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 75.692 63.5 90)
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+			(at 193.04 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9063,7 +9297,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 63.5 0)
+			(at 193.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 193.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a1b3474-4e73-470f-a3be-ece1ba08237e")
+		)
+		(pin "1"
+			(uuid "cb092dfc-33fd-4241-8d45-4a35053442b9")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61651a19-fd5c-43bc-afc4-d4c1344922ae")
+		(property "Reference" "R12"
+			(at 71.628 68.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 70.612 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 75.692 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9074,7 +9389,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 63.5 0)
+			(at 77.47 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9091,7 +9406,7 @@
 			(uuid "16a07b10-da31-4ba5-9862-5a1deecf5bed")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R12")
 					(unit 1)
@@ -9101,7 +9416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 21.59 0)
+		(at 85.09 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9111,7 +9426,7 @@
 		(dnp no)
 		(uuid "64bf0176-c5b1-4617-919a-4ed564c84c81")
 		(property "Reference" "R2"
-			(at 80.518 23.114 0)
+			(at 79.248 23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9122,7 +9437,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 79.502 20.574 0)
+			(at 78.232 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9133,7 +9448,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 84.582 21.59 90)
+			(at 83.312 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9144,7 +9459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 21.59 0)
+			(at 85.09 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9155,7 +9470,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 21.59 0)
+			(at 85.09 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9172,7 +9487,7 @@
 			(uuid "442bf91f-246f-4191-8ab3-f7a69b23eb27")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R2")
 					(unit 1)
@@ -9254,7 +9569,7 @@
 			(uuid "49bb25b0-5f6f-4915-b674-f46ddeb453a8")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J3")
 					(unit 1)
@@ -9264,7 +9579,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 50.8 0)
+		(at 153.67 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9275,7 +9590,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e24ddfc-47be-4d26-a7a8-ef394b4271d9")
 		(property "Reference" "#PWR010"
-			(at 156.21 57.15 0)
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9286,7 +9601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 55.88 0)
+			(at 153.67 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9296,7 +9611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 50.8 0)
+			(at 153.67 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9307,7 +9622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 50.8 0)
+			(at 153.67 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 50.8 0)
+			(at 153.67 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9332,7 +9647,7 @@
 			(uuid "5651a9d6-7e05-4a3b-bdef-95bc2dbcaa58")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR010")
 					(unit 1)
@@ -9412,7 +9727,7 @@
 			(uuid "1ad1a146-0b00-47d2-ad16-764d293c0d24")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C13")
 					(unit 1)
@@ -9491,9 +9806,87 @@
 			(uuid "c9b1c637-0506-4ac1-8f13-234bf12dc93b")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7eeb40dc-0714-4f6d-9478-486cff8aa952")
+		(property "Reference" "TP6"
+			(at 209.042 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 207.264 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 205.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2586a93e-6afe-49c9-839c-3d0ac42fa10c")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -9579,7 +9972,7 @@
 			(uuid "67ba0f24-f705-4e61-9193-23bb81c3362a")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q4")
 					(unit 1)
@@ -9658,7 +10051,7 @@
 			(uuid "f2202336-8e10-4c0e-9249-77af3ae0cbb0")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C12")
 					(unit 1)
@@ -9668,7 +10061,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 49.53 0)
+		(at 105.41 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9679,7 +10072,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c398df9-ca7c-460a-ada5-8ce0f3518fc7")
 		(property "Reference" "#PWR08"
-			(at 106.68 55.88 0)
+			(at 105.41 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9690,7 +10083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 54.61 0)
+			(at 105.41 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9700,7 +10093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 49.53 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9711,7 +10104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 49.53 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9722,7 +10115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 49.53 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9736,7 +10129,7 @@
 			(uuid "bf39f4b4-0d94-4ba1-8fb3-b36985401ceb")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR08")
 					(unit 1)
@@ -9814,7 +10207,7 @@
 			(uuid "5407ddae-dd52-4418-9d5b-d09893b35113")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR09")
 					(unit 1)
@@ -9892,7 +10285,7 @@
 			(uuid "74da37d5-e7f0-403b-94e7-30cdeca8c4f2")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP3")
 					(unit 1)
@@ -9974,88 +10367,9 @@
 			(uuid "af956a49-15ab-4309-810a-7a350f270326")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 194.31 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c3c9ded-bc26-4a01-bd08-913a7ed4ad82")
-		(property "Reference" "TP6"
-			(at 199.39 115.5699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 199.39 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 194.31 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 194.31 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4c4dea5-e9c0-4835-ab05-c8f91e79c962")
-		)
-		(instances
-			(project "icarus schematic (2)"
-				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10146,7 +10460,7 @@
 			(uuid "f97bca3f-7c27-4b1d-915f-2e1f40591c84")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D1")
 					(unit 1)
@@ -10156,7 +10470,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 100.33 270)
+		(at 36.83 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10166,7 +10480,7 @@
 		(dnp no)
 		(uuid "a6d255b3-5b28-4c52-a792-d94a3e4eb490")
 		(property "Reference" "R4"
-			(at 40.894 99.314 90)
+			(at 40.894 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10176,7 +10490,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 36.83 100.33 90)
+			(at 36.83 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10186,7 +10500,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.83 98.552 90)
+			(at 36.83 102.362 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10197,7 +10511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 100.33 0)
+			(at 36.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10208,7 +10522,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 100.33 0)
+			(at 36.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10225,7 +10539,7 @@
 			(uuid "c017b54d-5a0c-4e0e-8b0f-a96ccbe7f84d")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R4")
 					(unit 1)
@@ -10305,7 +10619,7 @@
 			(uuid "a672400d-151a-4b11-a427-6c6df8567f0a")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R13")
 					(unit 1)
@@ -10315,7 +10629,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:BMI088")
-		(at 153.67 35.56 0)
+		(at 151.13 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10326,7 +10640,7 @@
 		(dnp no)
 		(uuid "a7500232-2803-42b7-a2dd-eff5c87991c8")
 		(property "Reference" "U2"
-			(at 148.9867 17.78 0)
+			(at 146.4467 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10337,7 +10651,7 @@
 			)
 		)
 		(property "Value" "BMI088"
-			(at 148.9867 20.32 0)
+			(at 146.4467 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10348,7 +10662,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
-			(at 170.18 36.83 0)
+			(at 167.64 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10359,7 +10673,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf"
-			(at 170.18 36.83 0)
+			(at 167.64 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10370,7 +10684,7 @@
 			)
 		)
 		(property "Description" "Accelerometer, Gyroscope, 6-Axis Sensor, I2C / SPI interface, LGA-16"
-			(at 153.67 35.56 0)
+			(at 151.13 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +10743,7 @@
 			(uuid "e9aee114-6d42-479b-9f14-fbb25997c1d9")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "U2")
 					(unit 1)
@@ -10439,7 +10753,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 21.59 0)
+		(at 105.41 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10450,7 +10764,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8623a5c-7bb6-49c6-a212-25eea012c84e")
 		(property "Reference" "R3"
-			(at 109.22 20.3199 0)
+			(at 107.95 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10461,7 +10775,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 109.22 22.8599 0)
+			(at 107.95 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10472,7 +10786,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 104.902 21.59 90)
+			(at 103.632 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10483,7 +10797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 21.59 0)
+			(at 105.41 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10494,7 +10808,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 21.59 0)
+			(at 105.41 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10511,7 +10825,7 @@
 			(uuid "83f8f373-fe80-47e7-b809-aee774a231e2")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R3")
 					(unit 1)
@@ -10589,7 +10903,7 @@
 			(uuid "8e1ddb82-857d-4e71-9cea-2822acf3f2e1")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR02")
 					(unit 1)
@@ -10599,7 +10913,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 74.93 31.75 90)
+		(at 73.66 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10609,7 +10923,7 @@
 		(dnp no)
 		(uuid "ad93f59d-828b-4654-bb17-9a54589b7b23")
 		(property "Reference" "SW1"
-			(at 76.2 31.7499 90)
+			(at 74.93 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10620,7 +10934,7 @@
 			)
 		)
 		(property "Value" "SW_Push(BOOt)"
-			(at 76.2 34.2899 90)
+			(at 74.93 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10631,7 +10945,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
-			(at 69.85 31.75 0)
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10642,7 +10956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 31.75 0)
+			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10653,7 +10967,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 31.75 0)
+			(at 73.66 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10670,7 +10984,7 @@
 			(uuid "291a3cd0-c3c7-4b56-a7e7-08350acd666e")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "SW1")
 					(unit 1)
@@ -10748,7 +11062,7 @@
 			(uuid "2f6e3f13-a605-40ba-b58b-8360eac40078")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR05")
 					(unit 1)
@@ -10758,7 +11072,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 45.72 0)
+		(at 85.09 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10769,7 +11083,7 @@
 		(fields_autoplaced yes)
 		(uuid "b82e3664-82d4-4e00-b902-81b362b086a8")
 		(property "Reference" "#PWR07"
-			(at 86.36 52.07 0)
+			(at 85.09 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10780,7 +11094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 50.8 0)
+			(at 85.09 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10790,7 +11104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 45.72 0)
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10801,7 +11115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 45.72 0)
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10812,7 +11126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 45.72 0)
+			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +11140,7 @@
 			(uuid "f36a9fde-ff55-4925-a735-f7c44d4a6473")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR07")
 					(unit 1)
@@ -10905,7 +11219,7 @@
 			(uuid "d73f5903-aab4-44bd-8414-cc51233dcd85")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C10")
 					(unit 1)
@@ -10915,7 +11229,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 34.29 0)
+		(at 173.99 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10923,10 +11237,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c093f838-c000-4ca1-a11c-b0c1e699af0e")
 		(property "Reference" "C5"
-			(at 180.34 33.0199 0)
+			(at 176.784 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10937,7 +11250,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 180.34 35.5599 0)
+			(at 175.514 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10948,7 +11261,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 177.4952 38.1 0)
+			(at 174.9552 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +11272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 34.29 0)
+			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10970,7 +11283,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 34.29 0)
+			(at 173.99 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10987,7 +11300,7 @@
 			(uuid "fdd6f606-6fd2-486f-8c11-80408a0996b2")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C5")
 					(unit 1)
@@ -11069,7 +11382,7 @@
 			(uuid "0a1c8121-d5c4-4b13-a751-fd2e5ef02dcc")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "J5")
 					(unit 1)
@@ -11079,7 +11392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 74.93 90)
+		(at 187.96 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11088,9 +11401,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca15a0c2-cb44-4872-b045-def058eeac06")
-		(property "Reference" "#PWR06"
-			(at 100.33 74.93 0)
+		(uuid "c5d45551-fcea-4a36-97eb-8d8b76ceb023")
+		(property "Reference" "#PWR01"
+			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11101,18 +11414,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 74.9299 90)
+			(at 187.96 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 74.93 0)
+			(at 187.96 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11123,7 +11435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 74.93 0)
+			(at 187.96 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11134,7 +11446,86 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 74.93 0)
+			(at 187.96 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fa671f7-24c8-4fa1-9dc7-853146c9076a")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca15a0c2-cb44-4872-b045-def058eeac06")
+		(property "Reference" "#PWR06"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,7 +11539,7 @@
 			(uuid "513d3ae4-55ae-4acf-a1bf-1214811f2bfc")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#PWR06")
 					(unit 1)
@@ -11237,7 +11628,7 @@
 			(uuid "69bc66a7-6975-42f7-b989-979cc9852075")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D7")
 					(unit 1)
@@ -11318,7 +11709,7 @@
 			(uuid "880ee5bf-4454-4813-96b9-e829c10ee5ef")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R1")
 					(unit 1)
@@ -11398,7 +11789,7 @@
 			(uuid "06f50a39-215a-42c7-ae26-8b3455f5e8d8")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C11")
 					(unit 1)
@@ -11486,90 +11877,9 @@
 			(uuid "2ba01d99-fa6b-4e72-9354-a43d7a47e36d")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 205.74 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d79d2d94-94da-43b5-b421-a8cf5e96c40a")
-		(property "Reference" "C8"
-			(at 207.01 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470uF"
-			(at 204.978 103.632 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm"
-			(at 206.7052 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c88f505b-b960-4568-8285-4700d3295c8e")
-		)
-		(pin "2"
-			(uuid "ab9e3b7d-b6c7-4351-975b-001370141a17")
-		)
-		(instances
-			(project "icarus schematic (2)"
-				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11655,7 +11965,7 @@
 			(uuid "460c49dc-f0ea-4f74-a256-15d2e4e953e5")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q2")
 					(unit 1)
@@ -11734,7 +12044,7 @@
 			(uuid "862e989d-a2f5-43ab-b68b-a543cacded91")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D3")
 					(unit 1)
@@ -11812,7 +12122,7 @@
 			(uuid "a3416e51-cd72-4fee-806f-c22d077e1076")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "TP1")
 					(unit 1)
@@ -11900,7 +12210,7 @@
 			(uuid "057accdb-a5b7-44b9-a068-d9034931e5ff")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "Q3")
 					(unit 1)
@@ -11978,7 +12288,7 @@
 			(uuid "db303290-085b-4284-b95f-c65e6a5c2bac")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "#FLG02")
 					(unit 1)
@@ -12060,7 +12370,7 @@
 			(uuid "d0938c9a-bec2-4b1c-8e4b-0b85808aa7f9")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R9")
 					(unit 1)
@@ -12081,7 +12391,7 @@
 		(dnp no)
 		(uuid "e11dc613-9a2f-4c93-bf50-ca1c02a5d3e1")
 		(property "Reference" "D6"
-			(at 272.0975 15.24 0)
+			(at 270.256 16.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12091,7 +12401,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 272.0975 17.78 0)
+			(at 270.256 18.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12140,7 +12450,7 @@
 			(uuid "b87a3537-25e7-4c8a-8c25-6d4bfbd12d1c")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D6")
 					(unit 1)
@@ -12221,7 +12531,7 @@
 			(uuid "3fbb99bf-9e41-44e6-87e2-0c4a589bcce8")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C3")
 					(unit 1)
@@ -12231,7 +12541,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 39.37 0)
+		(at 85.09 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12242,7 +12552,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2ef7425-534b-4a5c-a41c-bb9b4362b06d")
 		(property "Reference" "C2"
-			(at 91.44 38.0999 0)
+			(at 90.17 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12253,7 +12563,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 91.44 40.6399 0)
+			(at 90.17 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12264,7 +12574,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 87.3252 43.18 0)
+			(at 86.0552 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12275,7 +12585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 39.37 0)
+			(at 85.09 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12286,7 +12596,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 86.36 39.37 0)
+			(at 85.09 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12303,7 +12613,7 @@
 			(uuid "55945727-c718-4af2-8b32-7ebe2f5f1151")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C2")
 					(unit 1)
@@ -12312,8 +12622,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 102.87 270)
+		(lib_id "Connector:TestPoint")
+		(at 205.74 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12321,29 +12631,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f01b36d2-6f28-44b3-bbf2-d410158605d6")
-		(property "Reference" "R5"
-			(at 40.894 101.854 90)
+		(uuid "e6e7a609-5ae1-4179-bef9-49510663e667")
+		(property "Reference" "TP5"
+			(at 209.042 109.982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 36.83 102.87 90)
+		(property "Value" "TestPoint"
+			(at 207.264 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.83 101.092 90)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 205.74 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12354,7 +12666,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 102.87 0)
+			(at 205.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e71e3804-a7e5-447d-b6d2-c9e037c4a3b7")
+		)
+		(instances
+			(project "icarus schematic"
+				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 106.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f01b36d2-6f28-44b3-bbf2-d410158605d6")
+		(property "Reference" "R5"
+			(at 40.894 105.664 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 36.83 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 36.83 104.902 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12365,7 +12753,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 102.87 0)
+			(at 36.83 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12382,7 +12770,7 @@
 			(uuid "10cf1299-9d6f-476c-ab2d-fba686b5a108")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "R5")
 					(unit 1)
@@ -12412,7 +12800,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 120.904 64.262 0)
+			(at 120.904 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12461,7 +12849,7 @@
 			(uuid "ba2b1606-bc2a-450d-9834-d2fc3ab219f0")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "D2")
 					(unit 1)
@@ -12542,7 +12930,7 @@
 			(uuid "94e12249-3031-4574-8ec3-df071579412e")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C1")
 					(unit 1)
@@ -12623,7 +13011,7 @@
 			(uuid "f56a9292-ae81-41e0-a926-3ac1c60d370d")
 		)
 		(instances
-			(project "icarus schematic (2)"
+			(project "icarus schematic"
 				(path "/7d2f9570-06fd-4dce-9677-8ff41db13bde"
 					(reference "C7")
 					(unit 1)
