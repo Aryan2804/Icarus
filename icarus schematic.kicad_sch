@@ -5087,8 +5087,16 @@
 		(uuid "1dfaf56a-1f29-4a1f-aa02-bbb0c5b36843")
 	)
 	(no_connect
+		(at 74.93 96.52)
+		(uuid "226e36aa-7c29-4473-adaf-cccccf4b0bbd")
+	)
+	(no_connect
 		(at 44.45 78.74)
 		(uuid "22f159b0-3b67-4622-b067-696147f4849a")
+	)
+	(no_connect
+		(at 74.93 93.98)
+		(uuid "28af682d-4b20-41ab-8aca-cf7cb5d8c0fb")
 	)
 	(no_connect
 		(at 44.45 93.98)
@@ -5139,6 +5147,10 @@
 		(uuid "8c8553ed-48f6-410b-9192-551140e2b0ab")
 	)
 	(no_connect
+		(at 138.43 38.1)
+		(uuid "8f71d6bd-927c-4398-8532-ae61d6b16a34")
+	)
+	(no_connect
 		(at 243.84 49.53)
 		(uuid "9d7ed219-399c-4151-b2dd-f7e499d7191d")
 	)
@@ -5169,6 +5181,10 @@
 	(no_connect
 		(at 74.93 101.6)
 		(uuid "c936ffc6-755b-4b4d-91e4-15b14bafb5c9")
+	)
+	(no_connect
+		(at 138.43 27.94)
+		(uuid "ce3d6eb1-1909-40ac-b3b3-ebfeb80bb23f")
 	)
 	(no_connect
 		(at 74.93 86.36)
@@ -5553,16 +5569,6 @@
 			(type default)
 		)
 		(uuid "35fa90c6-df1e-46ab-9e3b-a96b9f5f3209")
-	)
-	(wire
-		(pts
-			(xy 74.93 96.52) (xy 77.47 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ebb825-ef7e-4192-a571-3027764f596a")
 	)
 	(wire
 		(pts
@@ -6356,16 +6362,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 77.47 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e72a321-a081-4d02-8b98-f6e7d9657938")
-	)
-	(wire
-		(pts
 			(xy 139.7 116.84) (xy 144.78 116.84)
 		)
 		(stroke
@@ -6994,16 +6990,6 @@
 		)
 		(uuid "27c4511b-56e7-467f-8ebf-81e3b4604df4")
 	)
-	(label "INT3"
-		(at 77.47 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "328b2169-e066-4b91-98fa-49085a483a51")
-	)
 	(label "3.3V"
 		(at 85.09 17.78 0)
 		(effects
@@ -7023,16 +7009,6 @@
 			(justify left bottom)
 		)
 		(uuid "4fc3a936-9a86-4c91-9ac9-2385da04f6aa")
-	)
-	(label "INT1"
-		(at 138.43 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65ba0be4-dc5e-444d-b0a5-2a9c5ec76fd8")
 	)
 	(label "EN"
 		(at 105.41 27.94 0)
@@ -7214,16 +7190,6 @@
 		)
 		(uuid "c4b59dbe-b8b3-4029-ad85-64084f9b63af")
 	)
-	(label "INT3"
-		(at 138.43 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c823978b-8438-42e1-ba2c-8653b6d5bf2c")
-	)
 	(label "SCK"
 		(at 77.47 114.3 0)
 		(effects
@@ -7303,16 +7269,6 @@
 			(justify left bottom)
 		)
 		(uuid "ecc41a89-050b-470e-91a3-3913c4868d98")
-	)
-	(label "INT1"
-		(at 77.47 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef464801-1fc8-4457-9a2b-bba779f796c5")
 	)
 	(label "CSB2"
 		(at 77.47 106.68 0)
