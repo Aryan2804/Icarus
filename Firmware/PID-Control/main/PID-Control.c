@@ -143,16 +143,32 @@ float pid_update(pid_state *s, const pid_gains *g,
 }
 
 throttle_config tcfg = { .launch_end = 1350.0f, .flight_start = 1500.0f };
+
 pid_gains roll_gains = {
     .launch_kp = 18.0f, .launch_kd = 0.5f,
     .flight_kp = 8.0f,  .flight_kd = 0.2f,
     .ki = 1.5f, .max_i_output = 20.0f, .max_output = 100.0f
 };
+pid_gains pitch_gains = {
+    .launch_kp = 18.0f, .launch_kd = 0.5f,
+    .flight_kp = 8.0f,  .flight_kd = 0.2f,
+    .ki = 1.5f, .max_i_output = 20.0f, .max_output = 100.0f
+};
+pid_gains yaw_gains = {
+    .launch_kp = 4.0f, .launch_kd = 0.0f,   // kd unused for yaw, but harmless to leave at 0
+    .flight_kp = 2.0f, .flight_kd = 0.0f,
+    .ki = 0.5f, .max_i_output = 15.0f, .max_output = 100.0f
+};
+
 pid_state roll_state;
+pid_state pitch_state;
+pid_state yaw_state;
 
 void app_main(void)
 {
-    pid_init(&roll_state);  
+    pid_init(&roll_state); 
+    pid_init(&pitch_state);
+    pid_init(&yaw_state); 
     while (1) {
       
         //sensor input
@@ -165,6 +181,13 @@ void app_main(void)
                                         desired_roll, current_roll, roll_rate,
                                         dt, gain_blend, enable_i);
 
+        float pitch_output = pid_update(&pitch_state, &pitch_gains,
+                                         desired_pitch, current_pitch, pitch_rate,
+                                         dt, gain_blend, enable_i);
+
+        float yaw_output = pid_update_no_d(&yaw_state, &yaw_gains,
+                                            desired_yaw, yaw_rate,
+                                            dt, gain_blend, enable_i);
         //send roll_output to your motor mixer
     }
 }
