@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -654,7 +654,7 @@
   "sheets": [
     [
       "7d2f9570-06fd-4dce-9677-8ff41db13bde",
-      "icarus schematic"
+      "icarus"
     ]
   ],
   "text_variables": {},
