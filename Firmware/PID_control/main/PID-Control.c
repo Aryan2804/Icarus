@@ -1,76 +1,8 @@
-// // #include <stdio.h>
-// // #include <math.h>
-
-// // //input thre gyro value;
-
-// // void app_main(void)
-// // { 
-// //     //launching time
-
-// //     if ((Throttle < 1350)){
-        
-// //         kp = 18.0;
-// //         ki=0;
-// //         kd = 5.0;
-        
-// //     }
-// // if(Flight Mode (Throttle > 1500){
-// //             ki= 2;
-// //             kp=3;
-// //             kd 3;
-
-// //         }
-
-// // if (landing){
-// //     ki=2;
-// //     kd=0.5;
-// //     kp=2;
-// // }
-// // output to the motorcontroll
-// // }
-
-// struct pid_gain {
-//      float launch_kp;
-//     float launch_kd;
-//     float flight_kp;
-//     float flight_kd;
-//     float ki;            
-//     float max_i_output;  
-//     float max_output;  
-
-// }
-
-// struct state {
-//     float error_sum; //for i term error accumulation
-
-
-// }
-// float throttle = 1200.0f;      // example value, comes from your radio input
-// float launch_end = 1350.0f;    // below this = pure launch gains
-// float flight_start = 1500.0f;  // above this = pure flight gains
-
-// float gain_blend;
-// int enable_i;
-
-// if (throttle < launch_end) 
-// {
-//     gain_blend = 0.0f;
-//     enable_i = 0;
-// } 
-// else if (throttle > flight_start)
-//  {
-//     gain_blend = 1.0f;
-//     enable_i = 1;
-// } 
-// else 
-// {
-//     gain_blend = (throttle - launch_end) / (flight_start - launch_end);
-//     enable_i = 0;
-// }
-
-
 #include <stdio.h>
+#include <stdint.h>
 #include <math.h>
+#include "esp_timer.h"
+//include the file storing data of the gyro and accel
 
 typedef struct {
     float launch_kp;
@@ -90,6 +22,13 @@ typedef struct {
     float launch_end;
     float flight_start;
 } throttle_config;
+
+typedef struct {
+    float fl;  // front-left, 0-100
+    float fr;  // front-right, 0-100
+    float rl;  // rear-left, 0-100
+    float rr;  // rear-right, 0-100
+} motor_outputs;
 
 void pid_init(pid_state *s) {
     s->error_sum = 0.0f;
@@ -142,6 +81,27 @@ float pid_update(pid_state *s, const pid_gains *g,
     return output;
 }
 
+float clamp(float val, float lo, float hi) {
+    if (val > hi) return hi;
+    if (val < lo) return lo;
+    return val;
+}
+motor_outputs mix_motors(float throttle, float roll_output, float pitch_output)
+{
+    motor_outputs m;
+    m.fl = throttle - roll_output + pitch_output;
+    m.fr = throttle + roll_output + pitch_output;
+    m.rl = throttle - roll_output - pitch_output;
+    m.rr = throttle + roll_output - pitch_output;
+
+    m.fl = clamp(m.fl, 0.0f, 100.0f);
+    m.fr = clamp(m.fr, 0.0f, 100.0f);
+    m.rl = clamp(m.rl, 0.0f, 100.0f);
+    m.rr = clamp(m.rr, 0.0f, 100.0f);
+
+    return m;
+}
+
 throttle_config tcfg = { .launch_end = 1350.0f, .flight_start = 1500.0f };
 
 pid_gains roll_gains = {
@@ -154,25 +114,56 @@ pid_gains pitch_gains = {
     .flight_kp = 8.0f,  .flight_kd = 0.2f,
     .ki = 1.5f, .max_i_output = 20.0f, .max_output = 100.0f
 };
-pid_gains yaw_gains = {
-    .launch_kp = 4.0f, .launch_kd = 0.0f,   // kd unused for yaw, but harmless to leave at 0
-    .flight_kp = 2.0f, .flight_kd = 0.0f,
-    .ki = 0.5f, .max_i_output = 15.0f, .max_output = 100.0f
-};
+
+//fixed yaw
+#define YAW_OUTPUT_CONSTANT 0.0f
 
 pid_state roll_state;
 pid_state pitch_state;
-pid_state yaw_state;
 
 void app_main(void)
 {
-    pid_init(&roll_state); 
+    pid_init(&roll_state);
     pid_init(&pitch_state);
-    pid_init(&yaw_state); 
-    while (1) {
-      
-        //sensor input
 
+    while (1) {
+
+       
+        static int64_t last_time_us = 0;
+        int64_t now_us = esp_timer_get_time();
+        float dt = (last_time_us == 0) ? 0.001f : (now_us - last_time_us) / 1e6f;
+        last_time_us = now_us;
+
+        int16_t ax_raw, ay_raw, az_raw, gx_raw, gy_raw, gz_raw;
+        bmi088_read_accel(&ax_raw, &ay_raw, &az_raw);
+        bmi088_read_gyro(&gx_raw, &gy_raw, &gz_raw);
+
+        float gx_dps = (float)gx_raw / 16.384f;
+        float gy_dps = (float)gy_raw / 16.384f;
+        float gz_dps = (float)gz_raw / 16.384f;
+
+        float ax_g = (float)ax_raw / 5460.0f;
+        float ay_g = (float)ay_raw / 5460.0f;
+        float az_g = (float)az_raw / 5460.0f;
+
+        float accel_roll  = atan2f(ay_g, az_g) * 180.0f / (float)M_PI;
+        float accel_pitch = atan2f(-ax_g, sqrtf(ay_g*ay_g + az_g*az_g)) * 180.0f / (float)M_PI;
+
+        static float current_roll = 0.0f;
+        static float current_pitch = 0.0f;
+
+        const float alpha = 0.98f;
+        current_roll  = alpha * (current_roll  + gx_dps * dt) + (1.0f - alpha) * accel_roll;
+        current_pitch = alpha * (current_pitch + gy_dps * dt) + (1.0f - alpha) * accel_pitch;
+
+        float roll_rate  = gx_dps;
+        float pitch_rate = gy_dps;
+
+        float throttle      = 0.0f;  // raw throttle channel, same units as tcfg (e.g. µs pulse width)
+        float desired_roll  = 0.0f;  // stick input mapped to a target roll angle (deg)
+        float desired_pitch = 0.0f;  // stick input mapped to a target pitch angle (deg)
+
+        // ---- PID ----
         float gain_blend;
         int enable_i;
         pid_compute_gain_blend(&tcfg, throttle, &gain_blend, &enable_i);
@@ -185,9 +176,9 @@ void app_main(void)
                                          desired_pitch, current_pitch, pitch_rate,
                                          dt, gain_blend, enable_i);
 
-        float yaw_output = pid_update_no_d(&yaw_state, &yaw_gains,
-                                            desired_yaw, yaw_rate,
-                                            dt, gain_blend, enable_i);
-        //send roll_output to your motor mixer
+        float yaw_output = YAW_OUTPUT_CONSTANT;  // unused in mixer since yaw is fixed
+
+        motor_outputs mo = mix_motors(throttle, roll_output, pitch_output);
+
     }
 }
