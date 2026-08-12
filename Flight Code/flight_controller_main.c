@@ -27,13 +27,9 @@ static const ledc_channel_t LEDC_CHANNEL[MOTORS] = {
     LEDC_CHANNEL_0, LEDC_CHANNEL_1, LEDC_CHANNEL_2, LEDC_CHANNEL_3
 };
 
-// ---------------- Throttle / mission profile ----------------
-// Throttle is tracked in "RC microsecond" units (1000-2000us) so it uses
-// the same scale as tcfg.launch_end / tcfg.flight_start below, and so
-// roll/pitch PID output can be added straight onto it.
 #define THROTTLE_MIN_US    1000.0f
 #define THROTTLE_MAX_US    2000.0f
-#define HOVER_THROTTLE_US  1450.0f   // TODO: tune this to your airframe's real hover point
+#define HOVER_THROTTLE_US  1450.0f   
 
 #define STAGE1_END   3.0f
 #define STAGE2_END   (STAGE1_END + 10.0f)
@@ -56,11 +52,10 @@ static pid_gains pitch_gains = {
     .ki = 1.5f, .max_i_output = 20.0f, .max_output = 100.0f
 };
 
-#define YAW_OUTPUT_CONSTANT 0.0f  // yaw axis not implemented yet
+#define YAW_OUTPUT_CONSTANT 0.0f  // yaw axis is set to zero
 
 static pid_state roll_state, pitch_state;
 
-// ---------------- Peripheral init ----------------
 
 static void pwm_config(void)
 {
@@ -99,9 +94,7 @@ static void uart_config_init(void)
     uart_driver_install(UART_NUM_0, 1024, 0, 0, NULL, 0);
 }
 
-// Non-blocking single-character command check ('a' = arm, 'd' = disarm).
-// Deliberately non-blocking (0 tick timeout) so it never stalls the
-// 1kHz control loop the way the original blocking line-reader would have.
+
 static void uart_poll_commands(void)
 {
     uint8_t ch;
@@ -134,9 +127,7 @@ static float us_to_duty_percent(float us)
     return (us - THROTTLE_MIN_US) / (THROTTLE_MAX_US - THROTTLE_MIN_US) * 100.0f;
 }
 
-// Returns commanded throttle (RC-microsecond units) for the current point
-// in the timed mission: stage 1 = soft-start ramp up to hover, stage 2 =
-// hold hover, stage 3 = ramp down, after stage 3 = disarm / motors off.
+
 static float flight_path(void)
 {
     float elapsed_s = (esp_timer_get_time() - mission_start_us) / 1e6f;
@@ -204,17 +195,11 @@ void app_main(void)
 
         float roll_rate  = gx_dps;
         float pitch_rate = gy_dps;
-
-        // ---- Setpoints ----
-        // TODO: wire in a real receiver/telemetry link. Until then this
-        // holds level (0 deg) attitude and just flies the timed throttle
-        // profile below - fine for a bench/tethered stability test, not
-        // for a controllable flight.
         float throttle_us   = armed ? flight_path() : THROTTLE_MIN_US;
         float desired_roll  = 0.0f;
         float desired_pitch = 0.0f;
 
-        // ---- PID ----
+        // PID
         float gain_blend;
         int enable_i;
         pid_compute_gain_blend(&tcfg, throttle_us, &gain_blend, &enable_i);

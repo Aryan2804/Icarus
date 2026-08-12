@@ -106,22 +106,21 @@ esp_err_t bmi088_init(void)
     ret = spi_bus_add_device(SPI2_HOST, &gyro_cfg, &gyro_spi);
     if (ret != ESP_OK) return ret;
 
-    // A throwaway read is required right after power-on to switch the
-    // accelerometer out of I2C mode and into SPI mode (BMI088 datasheet).
+    
     uint8_t dummy;
     accel_read(ACC_CHIP_ID, &dummy, 1);
     vTaskDelay(pdMS_TO_TICKS(1));
 
-    reg_write(accel_spi, ACC_PWR_CONF, 0x00);   // 0x00 = exit suspend mode
+    reg_write(accel_spi, ACC_PWR_CONF, 0x00);   
     vTaskDelay(pdMS_TO_TICKS(1));
-    reg_write(accel_spi, ACC_PWR_CTRL, 0x04);   // 0x04 = accelerometer on
+    reg_write(accel_spi, ACC_PWR_CTRL, 0x04);   
     vTaskDelay(pdMS_TO_TICKS(1));
 
-    reg_write(accel_spi, ACC_RANGE, 0x01);      // +/-6g
-    reg_write(accel_spi, ACC_CONF, 0xAB);       // normal filter, ODR = 800Hz
+    reg_write(accel_spi, ACC_RANGE, 0x01);      
+    reg_write(accel_spi, ACC_CONF, 0xAB);       
 
-    reg_write(gyro_spi, GYRO_RANGE, 0x00);      // +/-2000 deg/s
-    reg_write(gyro_spi, GYRO_BANDWIDTH, 0x02);  // ODR=1000Hz, BW=116Hz
+    reg_write(gyro_spi, GYRO_RANGE, 0x00);      
+    reg_write(gyro_spi, GYRO_BANDWIDTH, 0x02);  
 
     uint8_t acc_id = 0, gyro_id = 0;
     accel_read(ACC_CHIP_ID, &acc_id, 1);
