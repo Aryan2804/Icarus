@@ -66,8 +66,6 @@ To bring Project Icarus to completion, we mapped out the following milestones:
 ## Perfboard and Load cell Testing
 | ![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-perfboard.jpeg)  | ![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-loadcell.jpeg) | 
 :-------------------------:|:-------------------------:|
-![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-loadcell-testing.mp4)
-:-------------------------:|
 
 
 ## PCB Model
@@ -102,7 +100,7 @@ To bring Project Icarus to completion, we mapped out the following milestones:
 - [Astha Sharma ](https://github.com/asthasharma020406-stack)
 
 ## Acknowledgements 
-- [SRA VJTI](https://sravjti.in/) Eklavya 2024
+- [SRA VJTI](https://sravjti.in/) Eklavya 2026
 - Special thanks to our mentors [Aryan Vyapari](https://github.com/4rynv), [Bhakti Assar](https://github.com/Bhakti-A), and all the seniors at SRA, VJTI for their constant support and guidance throughout the project.
 
 ## License
