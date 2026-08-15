@@ -1,8 +1,0 @@
-# Ignore the whole folder by default
-Images/*
-
-# Allow specific README images
-!Images/image-1.png
-!Images/image-2.png
-!Images/image-3.png
-!Images/image-4.png
