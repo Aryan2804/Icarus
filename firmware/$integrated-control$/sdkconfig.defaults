@@ -1,0 +1,9 @@
+# Default FreeRTOS tick rate is 100 Hz, which means pdMS_TO_TICKS(1) in the
+# main control loop would actually round up to one 10ms tick (100Hz loop,
+# not 1kHz). Bump the tick rate so the control loop timing assumption in
+# flight_controller_main.c is correct.
+CONFIG_FREERTOS_HZ=1000
+
+# Main task needs a bit of headroom for the float math (atan2f/sqrtf) in
+# the complementary filter every loop iteration.
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=4096

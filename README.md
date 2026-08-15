@@ -1,5 +1,7 @@
 # Icarus:
 Design an FPV quadcopter from scratch using brushed coreless motors
+| ![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-main.png)  |
+:-------------------------:|
 
 ## Table of Contents
 - [About The Project](#about-the-project)
@@ -61,12 +63,13 @@ To bring Project Icarus to completion, we mapped out the following milestones:
 |BMI 088 |6-DoF Inertial Measurement Unit|
 |Xiao-ESP32-S3-sense OV3660 |Camera Module|
 |USB- C Receptacle |Power and Programming Interface|
+|AMS1117 |Voltage regulator|
+|Load cell |Thrust measurement|
 
 
 ## Perfboard and Load cell Testing
 | ![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-perfboard.jpeg)  | ![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-loadcell.jpeg) | 
 :-------------------------:|:-------------------------:|
-
 
 ## PCB Model
 - View of the PCB Model front and back:       

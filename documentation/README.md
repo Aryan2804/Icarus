@@ -24,7 +24,7 @@ As we needed a small enough camera to be able to mount on the frame catering to 
 
 ## Firmware for the drone:
 **BMI-088**
-BMI-088 is the IMU of our quadcopter and also is the brain of our PCB. We selected the BMI088— high-performance, 6-degree-of-freedom Inertial Measurement Unit (IMU)—specifically for its excellent vibration suppression and optimization for aerial environments, which are critical for stable drone flight. The writing of our code was done by going through multiple resources which we listed down in the [Resources](https://github.com/Aryan2804/Icarus#resources). The code works in a standard workflow:
+BMI-088 is the IMU of our quadcopter and also is the brain of our PCB. We selected the BMI088- high-performance, 6-degree-of-freedom Inertial Measurement Unit (IMU)-specifically for its excellent vibration suppression and optimization for aerial environments, which are critical for stable drone flight. The writing of our code was done by going through multiple resources which we listed down in the [Resources](https://github.com/Aryan2804/Icarus#resources). The code works in a standard workflow:
 1. definition of all the pins
 2. defining a header file
 3. defining the inputs and their bits which we will take ie. accelerometer and gyroscopic
@@ -48,30 +48,30 @@ Icarus offers significant learning opportunities in embedded systems, control th
 ----
 
 
-# **Start of the project…..**
+# **Start of the project**
 
-## **Perfboard Testing for Micromouse:**
-Perfboard testing is an essential step in the development process of a Icarusrobot. A perfboard (short for perforated board) is a prototyping board used to build circuits without the need for designing and manufacturing a printed circuit board (PCB) right away. It allows developers to test the functionality of various components, such as sensors, motor drivers, and microcontrollers, before finalizing the design. This approach provides a flexible and cost-effective way to verify that all components work as intended when integrated.
+## **Perfboard Testing for Icarus:**
+Perfboard testing is an essential step in the development process of a Icarus. A perfboard (short for perforated board) is a prototyping board used to build circuits without the need for designing and manufacturing a printed circuit board (PCB) right away. It allows developers to test the functionality of various components, such as sensors, motor drivers, and microcontrollers, before finalizing the design. This approach provides a flexible and cost-effective way to verify that all components work as intended when integrated.
 
 ### **Purpose of Perfboard Testing:**  
 1. **Circuit Validation**: Ensures that all components are correctly wired and interact as expected. This step is crucial to identify any electrical issues, such as incorrect connections or voltage mismatches, which could lead to component failure.  
-2.	**Functional Testing**: Allows testing of the Micromouse’s core functionalities—like motor control, sensor readings, and microcontroller processing—in a controlled environment. This helps in validating that the hardware and software communicate properly.  
+2.	**Functional Testing**: Allows testing of the Micromouse’s core functionalities-like motor control, sensor readings, and microcontroller processing-in a controlled environment. This helps in validating that the hardware and software communicate properly.  
 3.	**Debugging and Optimization**: Provides a platform for real-time debugging. One can easily replace components, adjust connections, or tweak circuit parameters without the complexities associated with a final PCB layout.
 
 ### **Steps for Perfboard Testing:**  
 1.  **Component Placement and Soldering**:  
-    - Carefully place all components—such as microcontrollers (ESP32), motor drivers (DRV8833), IR sensors, and Time-of-Flight (ToF) sensors—on the perfboard in a logical layout that minimizes wire length and prevents cross-connections.  
+    - Carefully place all components in a logical layout that minimizes wire length and prevents cross-connections.  
 	- Solder the components securely, ensuring no cold joints or short circuits between adjacent pads. Proper soldering techniques are crucial to avoid unstable connections.  
 2.  **Power Supply Verification**:  
 	- Connect the power source (e.g., 3.7V battery) to the perfboard and verify the voltage levels across different sections of the circuit. Use a multimeter to ensure that all components receive their required voltage and current levels.  
 3.  **Initial Power-On Testing**:  
 	- Perform a “smoke test” by powering on the circuit with minimal components to check for immediate signs of faults, such as overheating components, unusual noises, or visible smoke.  
 4.  **Subsystem Testing**:  
-	- Motor and Motor Driver Testing: Verify that the motors respond correctly to the control signals from the motor driver and microcontroller. Test different speeds and directions.  
-	- Sensor Testing: Confirm that the sensors (IR sensors, VL53L0X ToF sensors) provide accurate readings and that data is correctly processed by the microcontroller.  
-	- Microcontroller Functionality: Ensure the microcontroller executes the maze-solving algorithms correctly and interfaces with all other components without errors.  
+	- Motor and Motor Driver Testing: Verify that the motors respond correctly to the control signals from the motor driver. Test different speeds and directions.  
+	- Sensor Testing: Confirm that the sensors provide accurate readings and that data is correctly processed by the microcontroller.  
+	- Microcontroller Functionality: Ensure the microcontroller executes info gathering and interfaces with all other components without errors.  
 5.	**Integration Testing**:  
-	- Once all individual components and subsystems are tested, perform an integrated test to see how they work together. This step involves running simple maze-solving algorithms, like wall-following, to ensure the robot moves and navigates properly.
+	- Once all individual components and subsystems are tested, perform an integrated test to see how they work together.
 
 
 ### **Benefits of Perfboard Testing:**  
@@ -88,7 +88,7 @@ PCB (Printed Circuit Board) design involves creating a physical layout for a boa
 
 - **PCB Layout**: Involves designing the physical layout of the board, defining its shape, and placing components based on the schematic.  
 
-- **Routing**: Establishing electrical paths (traces) that connect various components on the board, which is crucial for signal integrity and reducing noise.  
+- **Routing and Net making**: Establishing electrical paths (traces) and nets that connect various components on the board, which is crucial for signal integrity and reducing noise.  
 
 - **Verification and DFM Checks**: Ensures the design is functionally correct and manufacturable. DFM (Design for Manufacturing) checks help identify potential issues before production.
 
