@@ -1,0 +1,2 @@
+source C:/Users/Admin/Icarus/firmware/motor-control/build/bootloader/gdbinit/symbols
+source C:/Users/Admin/Icarus/firmware/motor-control/build/bootloader/gdbinit/connect
