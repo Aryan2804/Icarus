@@ -102,9 +102,5 @@ To bring Project Icarus to completion, we mapped out the following milestones:
 - [Aryan Ghughare](https://github.com/Aryan2804)
 - [Astha Sharma ](https://github.com/asthasharma020406-stack)
 
-## Acknowledgements 
-- [SRA VJTI](https://sravjti.in/) Eklavya 2026
-- Special thanks to our mentors [Aryan Vyapari](https://github.com/4rynv), [Bhakti Assar](https://github.com/Bhakti-A), and all the seniors at SRA, VJTI for their constant support and guidance throughout the project.
-
 ## License
 [MIT License](https://opensource.org/license/mit/)
