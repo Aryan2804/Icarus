@@ -5,7 +5,7 @@ Documentation for presentation of [EKLAVYA-SRA](https://eklavya.sravjti.in/proje
 Icarus is a small, FPV drone quadcopter project which involves the use of an ESP32-S3_WROOM1 board and brushed coreless motors in order to achieve flight. We wanted to design a drone from scratch which could be controlled over wifi-bluetooth through a mobile phone. We custom made all the circuits and the software so that it would be optimised for our project.    
 
 ----
-| ![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-main.png)  |
+| ![](https://github.com/Aryan2804/Icarus/blob/main/assets/icarus-main.jpeg)  |
 :-------------------------:|
 
 
